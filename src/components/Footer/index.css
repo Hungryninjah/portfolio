@@ -1,0 +1,19 @@
+/*Cool and refreshing Color Palette
+#25274D - Dark Blue
+#464866 - Muted purple
+#AAABB8 - Greyish White
+#2E9CCA - Light Blue
+#29648A - Greenish Blue
+*/
+footer {
+    margin: 0;
+    background: #AAABB8;
+    padding: 10px 10px;
+    text-align: center;
+    align-content: flex-end;
+}
+
+.contact-info a {
+    padding:10px;       
+    display: inline-block;      /*padding only aligns horizontally, so we need to give it an inline-block attribute*/
+}

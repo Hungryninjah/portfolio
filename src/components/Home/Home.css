@@ -1,0 +1,34 @@
+/*Cool and refreshing Color Palette
+#25274D - Dark Blue
+#464866 - Muted purple
+#AAABB8 - Greyish White
+#2E9CCA - Light Blue
+#29648A - Greenish Blue
+*/
+
+h1 {
+    text-align: center;
+}
+
+.column1 {
+    padding-top: 100px;
+    width: 40%;
+    float: left;
+}
+.column2 {
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 60%;
+    float: left;
+}
+
+.card {
+    float: left;
+}
+
+.homeImage {
+    width: 50%;
+    height: 50%;
+}
+
+
