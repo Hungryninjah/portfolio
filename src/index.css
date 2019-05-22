@@ -18,7 +18,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
@@ -28,9 +30,9 @@ body {
 }
 
 main {
-  background-color: #25274D;
+  background-color: #25274d;
   color: white;
-  
+
   padding: 10px 10px;
   min-height: 80vh;
 }
@@ -45,14 +47,11 @@ main {
 }
 
 a {
-  color:white;
+  color: white;
   margin: 0;
   text-decoration: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-
