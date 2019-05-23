@@ -10,7 +10,6 @@ const Portfolio: React.FC = () => (
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
-      <p>test</p>
     </div>
   </main>
 );
