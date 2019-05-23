@@ -32,9 +32,10 @@ body {
 main {
   background-color: #25274d;
   color: white;
-
   padding: 10px 10px;
   min-height: 80vh;
+  clear: both;
+  overflow: auto;
 }
 
 /*Global Layouts */

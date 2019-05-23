@@ -1,13 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import PortfolioCard from './PortfolioCard';
+import './Portfolio.css';
 
 const Portfolio: React.FC = () => (
   <main className="portfolio">
-    <div className="content-wrap center">
-      <h1>My Portfolio</h1>
-      <div className="page-link">
-        <NavLink to="/Portfolio/WebApps">Web Apps</NavLink>
-      </div>
+    <div className="portfolio-wrap">
+      <h1>Portfolio</h1>
+      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <p>test</p>
     </div>
   </main>
 );

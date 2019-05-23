@@ -1,0 +1,15 @@
+.portfolio-wrap {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.card-container {
+  width: 220px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100%;
+}
