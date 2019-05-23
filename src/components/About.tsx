@@ -16,7 +16,12 @@ const About: React.FC = () => (
         development, and an immersive course on web-development. You can access this website‘s git repository here:
       </p>
 
-      <a href="https://github.com/judemlim/judemlim.github.io.git" className="external-link">
+      <a
+        href="https://github.com/judemlim/judemlim.github.io.git"
+        className="external-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Link to Website Repo
       </a>
 
