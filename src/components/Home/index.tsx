@@ -10,20 +10,11 @@ interface Props {
 const Home: React.FC<Props> = (props: Props) => {
   return (
     <main className="home-page">
+      <br />
       <div className="content-wrap">
-        <div className="column1">
-          <h1>Welcome!</h1>
-          <p>
-            Welcome to my website! Here I showcase the various programming works I&rsquo;ve completed to improve my
-            coding skill-set. This website was created using React, and developed by myself. Testing cross orphan branch
-            deployment
-          </p>
-        </div>
-        <div className="column2">
-          <Card title="Portfolio" path="/portfolio" toggleHeader={props.toggleHeader} />
-          <Card title="CV" path="/cv" toggleHeader={props.toggleHeader} />
-          <Card title="About" path="/about" toggleHeader={props.toggleHeader} />
-        </div>
+        <Card title="Portfolio" path="/portfolio" toggleHeader={props.toggleHeader} />
+        <Card title="About" path="/about" toggleHeader={props.toggleHeader} />
+        <Card title="CV" path="/cv" toggleHeader={props.toggleHeader} />
       </div>
     </main>
   );

@@ -7,28 +7,14 @@
 */
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-.column1 {
-    padding-top: 100px;
-    width: 40%;
-    float: left;
-}
-.column2 {
-    padding-top: 100px;
-    padding-left: 100px;
-    width: 60%;
-    float: left;
-}
-
-.card {
-    float: left;
+.home-page {
+  text-align: center;
 }
 
 .homeImage {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
-
-

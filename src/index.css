@@ -37,15 +37,28 @@ main {
   min-height: 80vh;
 }
 
+/*Global Layouts */
 .content-wrap {
   max-width: 75vw;
   margin: 0 auto;
 }
 
-.web-app-list {
+.column1 {
+  padding-top: 100px;
+  width: 40%;
+  float: left;
+}
+.column2 {
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 60%;
+  float: left;
+}
+.center {
   text-align: center;
 }
 
+/*Links*/
 a {
   color: white;
   margin: 0;

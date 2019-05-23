@@ -24,16 +24,15 @@ const Header: React.FC<Props> = (props: Props) => {
   return (
     <header>
       <div className="header-not-home">
-        <div className="full-name">
-          <h1>Jude Michael Lim</h1>
-        </div>
+        <NavLink to="/" onClick={() => props.toggleHeader()}>
+          <div className="full-name">
+            <h1>Jude Michael Lim</h1>
+          </div>
+        </NavLink>
         <nav className="navbar">
-          <NavLink to="/" onClick={() => props.toggleHeader()}>
-            Home
-          </NavLink>
           <NavLink to="/portfolio">Portfolio</NavLink>
-          <NavLink to="/cv">CV</NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/cv">CV</NavLink>
         </nav>
       </div>
     </header>

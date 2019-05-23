@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const WebApps: React.FC = () => (
   <main className="web-app-page">
-    <div className="content-wrap web-app-list">
+    <div className="content-wrap center">
       <h1>Web Apps</h1>
       <NavLink to="/portfolio/webapps/todolist">TODO List</NavLink>
       <br />
