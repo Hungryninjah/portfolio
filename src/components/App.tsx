@@ -5,6 +5,7 @@ import CV from './CV';
 import About from './About';
 import Error from './Error';
 import Portfolio from './Portfolio';
+import Challenges from './Challenges';
 import WebApps from './WebApps';
 import TodoList from './TodoApp/TodoList';
 import MemeGenerator from './MemeGenerator';
@@ -21,7 +22,7 @@ const App: React.FC = () => {
     setAtHome(false);
   };
   useEffect(() => {
-    if (window.location.hash != '#/') {
+    if (window.location.hash !== '#/') {
       setAtHome(false);
     } else {
       setAtHome(true);
@@ -38,6 +39,7 @@ const App: React.FC = () => {
         <Route exact path="/portfolio/webapps/todolist" component={TodoList} />
         <Route exact path="/portfolio/webapps/memegenerator" component={MemeGenerator} />
         <Route exact path="/portfolio/webapps/analogueclock" component={AnalogueClock} />
+        <Route exact path="/portfolio/coding-challenges" component={Challenges} />
         <Route exact path="/cv" component={CV} />
         <Route exact path="/about" component={About} />
         <Route component={Error} />

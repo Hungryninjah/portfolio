@@ -13,6 +13,7 @@ const Home: React.FC<Props> = (props: Props) => {
     return () => {
       props.awayHeader();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <main className="home-page">

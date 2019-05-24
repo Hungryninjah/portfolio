@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => (
     <div className="portfolio-wrap">
       <h1>Portfolio</h1>
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
-      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <PortfolioCard title="Coding Challenges" path="/portfolio/coding-challenges" />
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
     </div>

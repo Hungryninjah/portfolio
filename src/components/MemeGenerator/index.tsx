@@ -6,16 +6,16 @@ const MemeGeneratorApp: React.FC = () => {
   const [bottomText, setBottomText] = useState('');
   const [randomImg, setRandomImg] = useState('http://i.imgflip.com/1bij.jpg');
   const [allMemeImgs, setAllMemeImgs] = useState([]);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false); TODO set loading screen
 
   useEffect(() => {
-    setLoading(true);
+    // setLoading(true);
     fetch('https://api.imgflip.com/get_memes')
       .then(response => response.json())
       .then(response => {
         const { memes } = response.data;
         setAllMemeImgs(memes);
-        setLoading(false);
+        // setLoading(false);
       });
   }, []);
 
