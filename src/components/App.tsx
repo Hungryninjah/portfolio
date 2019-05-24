@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import CV from './CV';
 import About from './About';
@@ -13,16 +13,26 @@ import Header from './Header';
 import Footer from './Footer';
 
 const App: React.FC = () => {
-  const [atHome, setAtHome] = useState(true);
-  const toggleHeader = () => {
-    setAtHome(!atHome);
+  const [atHome, setAtHome] = useState();
+  const homeHeader = () => {
+    setAtHome(true);
   };
+  const awayHeader = () => {
+    setAtHome(false);
+  };
+  useEffect(() => {
+    if (window.location.hash != '#/') {
+      setAtHome(false);
+    } else {
+      setAtHome(true);
+    }
+  }, []);
 
   const content = (
-    <BrowserRouter>
-      <Header atHome={atHome} toggleHeader={toggleHeader} />
+    <HashRouter>
+      <Header atHome={atHome} />
       <Switch>
-        <Route exact path="/" render={() => <Home toggleHeader={toggleHeader} />} />
+        <Route exact path="/" render={() => <Home awayHeader={awayHeader} homeHeader={homeHeader} />} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/portfolio/webapps" component={WebApps} />
         <Route exact path="/portfolio/webapps/todolist" component={TodoList} />
@@ -33,7 +43,7 @@ const App: React.FC = () => {
         <Route component={Error} />
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
   return content;
 };

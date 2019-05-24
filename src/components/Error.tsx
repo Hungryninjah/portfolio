@@ -1,8 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Error: React.FC = () => (
-  <main className="error-page">
-    <h1>Error: Path does not exist</h1>
+  <main className="center">
+    <h1>404</h1>
+    <h2>Path not found</h2>
+    <h4>
+      Please return to the{' '}
+      <Link to="/" className="external-link">
+        homepage
+      </Link>
+    </h4>
   </main>
 );
 

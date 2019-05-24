@@ -4,7 +4,6 @@ import './Header.css';
 
 interface Props {
   atHome: boolean;
-  toggleHeader(): void;
 }
 
 const Header: React.FC<Props> = (props: Props) => {
@@ -24,7 +23,7 @@ const Header: React.FC<Props> = (props: Props) => {
   return (
     <header>
       <div className="header-not-home">
-        <NavLink to="/" onClick={() => props.toggleHeader()}>
+        <NavLink to="/">
           <div className="full-name">
             <h1>Jude Michael Lim</h1>
           </div>
