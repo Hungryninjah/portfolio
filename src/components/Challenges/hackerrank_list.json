@@ -34,5 +34,68 @@
     "language": "Python",
     "difficulty": "Easy",
     "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 4,
+    "title": "Linked Lists: Detect a Cycle",
+    "url": "https://gist.github.com/judemlim/6f69a7218244c7966052ff4965786fff",
+    "challengeLink": "https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 5,
+    "title": "Find Merge Point of Two Lists",
+    "url": "https://gist.github.com/judemlim/cbb2c221267eeb3839d5802fe37cc4e1",
+    "challengeLink": "https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 6,
+    "title": "Reverse a Doubly Linked List",
+    "url": "https://gist.github.com/judemlim/43bd670a98e938838a8432dc5dbd8db4",
+    "challengeLink": "https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 7,
+    "title": "Insert Node Into Doubly Linked List",
+    "url": "https://gist.github.com/judemlim/6d369866d31a6f40cb11eb80debeccdb",
+    "challengeLink": "https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 8,
+    "title": "Insert Node In Specific Position in Linked List",
+    "url": "https://gist.github.com/judemlim/ae2818ee5f7a88221a636865863198e3",
+    "challengeLink": "https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 9,
+    "title": "Luck Balance - Greedy Algorithm",
+    "url": "https://gist.github.com/judemlim/a4b13ce0302f187991e6287b5786ef9c",
+    "challengeLink": "https://www.hackerrank.com/challenges/luck-balance/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 10,
+    "title": "Strings: Making Anagrams",
+    "url": "https://gist.github.com/judemlim/fa2f502dd23ebf678da752802fbc686d",
+    "challengeLink": "https://www.hackerrank.com/challenges/ctci-making-anagrams/problem",
+    "language": "Python",
+    "difficulty": "Easy",
+    "dateCompleted": "Early 2019"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "key": 0,
+    "title": "Largest Product in a Grid",
+    "url": "https://gist.github.com/judemlim/8b09b12184f04984f83d1f6472ff06f9",
+    "challengeLink": "https://projecteuler.net/problem=11",
+    "language": "C++",
+    "difficulty": "5%",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 1,
+    "title": "Summation of Primes",
+    "url": "https://gist.github.com/judemlim/003ab46c92ecfe8b178c65e2ad92df2b",
+    "challengeLink": "https://projecteuler.net/problem=10",
+    "language": "C++",
+    "difficulty": "5%",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 2,
+    "title": "Special Pythagorean Triplet",
+    "url": "https://gist.github.com/judemlim/a58d0e8ebdc17060b02cf6759b2f6972",
+    "challengeLink": "https://projecteuler.net/problem=9",
+    "language": "C++",
+    "difficulty": "5%",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 3,
+    "title": "Largest Product in a Series",
+    "url": "https://gist.github.com/judemlim/322194ab211aeb4f427ac65d0f4cbb14",
+    "challengeLink": "https://projecteuler.net/problem=8",
+    "language": "C++",
+    "difficulty": "5%",
+    "dateCompleted": "Early 2019"
+  },
+  {
+    "key": 4,
+    "title": "Largest Palindrome Product",
+    "url": "https://gist.github.com/judemlim/f6daa708b767d94e4970d86bb055ce42",
+    "challengeLink": "https://projecteuler.net/problem=4",
+    "language": "C++",
+    "difficulty": "5%",
+    "dateCompleted": "Early 2019"
+  }
+]

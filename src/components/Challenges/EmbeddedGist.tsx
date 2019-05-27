@@ -22,9 +22,9 @@ const EmbeddedGist: React.FC<Props> = (props: Props) => {
       <div>
         <div className="challenges-table">
           <div className="ct-col1">{props.title}</div>
-          <div className="ct-col2">Language: {props.language}</div>
-          <div className="ct-col3">Difficulty: {props.difficulty}</div>
-          <div className="ct-col4">Date Completed: {props.dateCompleted}</div>
+          <div className="ct-col2">{props.language}</div>
+          <div className="ct-col3">{props.difficulty}</div>
+          <div className="ct-col4">{props.dateCompleted}</div>
           <a href={props.challenge} className="ct-col5 external-link" target="_blank" rel="noopener noreferrer">
             Challenge Link
           </a>
@@ -42,9 +42,9 @@ const EmbeddedGist: React.FC<Props> = (props: Props) => {
       <div>
         <div className="challenges-table">
           <div className="ct-col1">{props.title}</div>
-          <div className="ct-col2">Language: {props.language}</div>
-          <div className="ct-col3">Difficulty: {props.difficulty}</div>
-          <div className="ct-col4">Date Completed: {props.dateCompleted}</div>
+          <div className="ct-col2">{props.language}</div>
+          <div className="ct-col3">{props.difficulty}</div>
+          <div className="ct-col4">{props.dateCompleted}</div>
           <a href={props.challenge} className="ct-col5 external-link" target="_blank" rel="noopener noreferrer">
             Challenge Link
           </a>
