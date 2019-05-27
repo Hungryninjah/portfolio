@@ -1,0 +1,35 @@
+.challenges-table {
+  display: flex;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.ct-col1 {
+  display: flex;
+  width: 30%;
+  border-right: 2px solid white;
+}
+.ct-col2 {
+  width: 13%;
+  border-right: 2px solid white;
+}
+.ct-col3 {
+  width: 12%;
+  border-right: 2px solid white;
+}
+.ct-col4 {
+  width: 20%;
+  border-right: 2px solid white;
+}
+.ct-col5 {
+  width: 10%;
+  border-right: 2px solid white;
+}
+.ct-col6 {
+  width: 15%;
+  border-right: 2px solid white;
+}
+
+.gist {
+  clear: both;
+}

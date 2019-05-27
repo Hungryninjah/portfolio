@@ -5,15 +5,19 @@
   "private": true,
   "dependencies": {
     "@types/react": "^16.8.14",
+    "@types/react-collapse": "^4.0.2",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.2",
+    "@types/react-table": "^6.8.1",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.17.0",
     "react": "^16.8.6",
+    "react-collapse": "^4.0.3",
     "react-dom": "^16.8.6",
+    "react-motion": "^0.5.2",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
     "typescript": "^3.4.5"
@@ -37,7 +41,8 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "react-github-gist": "^1.0.0"
   },
   "browserslist": {
     "production": [

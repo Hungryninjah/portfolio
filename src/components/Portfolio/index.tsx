@@ -8,8 +8,8 @@ const Portfolio: React.FC = () => (
       <h1>Portfolio</h1>
       <PortfolioCard title="WebApps" path="/portfolio/webapps" />
       <PortfolioCard title="Coding Challenges" path="/portfolio/coding-challenges" />
-      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
-      <PortfolioCard title="WebApps" path="/portfolio/webapps" />
+      <PortfolioCard title="NativeApps" path="/portfolio/webapps" />
+      <PortfolioCard title="Server" path="/portfolio/webapps" />
     </div>
   </main>
 );

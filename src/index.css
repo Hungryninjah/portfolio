@@ -38,7 +38,13 @@ main {
   overflow: auto;
 }
 
+/*Global Headings*/
+h2 {
+  clear: both;
+}
+
 /*Global Layouts */
+
 .content-wrap {
   max-width: 75vw;
   margin: 0 auto;
@@ -73,4 +79,10 @@ a.external-link {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/*Buttons*/
+button {
+  background-color: black;
+  color: white;
 }

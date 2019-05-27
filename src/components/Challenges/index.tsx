@@ -1,10 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
+import EmbeddedGist from './EmbeddedGist';
+import hackerrankList from './hackerrank_list.json';
+import { UnmountClosed } from 'react-collapse';
 
-const Challenges: React.FC = () => {
+const Challenges = () => {
+  const [isHackerrankVisible, setIsHackerrankVisible] = useState(false);
+  const [isProjectEulerVisible, setIsProjectEulerVisible] = useState(false);
+  const toggleHackerrankVis = () => {
+    setIsHackerrankVisible(!isHackerrankVisible);
+  };
+  const toggleProjectEulerVis = () => {
+    setIsProjectEulerVisible(!isProjectEulerVisible);
+  };
   return (
     <main>
-      <h1>Coding Challenges</h1>
-      <script src="https://gist.github.com/judemlim/e321f4b18b21e80df44b3dc157f5074b.js" />
+      <div className="content-wrap">
+        <h1>Coding Challenges</h1>
+        <h2>Hackerrank Challenges</h2>
+        <button onClick={() => toggleHackerrankVis()}>{isHackerrankVisible ? 'Hide all' : 'Show all'}</button>
+        <UnmountClosed isOpened={isHackerrankVisible}>
+          {hackerrankList.map(item => (
+            <EmbeddedGist
+              title={item.title}
+              language={item.language}
+              gist={item.url}
+              challenge={item.challengeLink}
+              dateCompleted={item.dateCompleted}
+              difficulty={item.difficulty}
+              key={item.key}
+            />
+          ))}
+        </UnmountClosed>
+
+        <h2>Project Euler Challenges</h2>
+        <button onClick={() => toggleProjectEulerVis()}>{isProjectEulerVisible ? 'Hide all' : 'Show all'}</button>
+        <UnmountClosed isOpened={isProjectEulerVisible}>
+          <p>Stuff in here</p>
+        </UnmountClosed>
+      </div>
     </main>
   );
 };
