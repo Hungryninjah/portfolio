@@ -18,6 +18,7 @@ const Challenges = () => {
     <main>
       <div className="content-wrap">
         <h1>Coding Challenges</h1>
+
         <h2>Hackerrank Challenges</h2>
         <button onClick={() => toggleHackerrankVis()}>{isHackerrankVisible ? 'Hide all' : 'Show all'}</button>
 
