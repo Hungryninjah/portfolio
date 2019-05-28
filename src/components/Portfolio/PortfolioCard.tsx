@@ -8,7 +8,7 @@ interface Props {
 }
 
 const PortfolioCard: React.FC<Props> = (props: Props) => (
-  <div className="card-container">
+  <div className="portfolio-card-container">
     <div className="portfolio-card">
       <Link to={props.path}>
         <img src={image1} alt="portfolio-link" className="portfolio-image" />

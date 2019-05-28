@@ -7,7 +7,7 @@ interface Props {
   path: string;
 }
 
-const Card: React.FC<Props> = (props: Props) => (
+const HomeCard: React.FC<Props> = (props: Props) => (
   <div className="card">
     <div className="front center">
       <Link to={props.path}>
@@ -18,4 +18,4 @@ const Card: React.FC<Props> = (props: Props) => (
   </div>
 );
 
-export default Card;
+export default HomeCard;

@@ -7,7 +7,7 @@ import Error from './Error';
 import Portfolio from './Portfolio';
 import Challenges from './Challenges';
 import WebApps from './WebApps';
-import TodoList from './TodoApp/TodoList';
+import TodoList from './TodoList';
 import MemeGenerator from './MemeGenerator';
 import AnalogueClock from './AnalogueClock';
 import Header from './Header';

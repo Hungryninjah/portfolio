@@ -1,0 +1,15 @@
+.webapp-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.webapp-card-container {
+  width: 200px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+
+.webapp-image {
+  width: 100%;
+}

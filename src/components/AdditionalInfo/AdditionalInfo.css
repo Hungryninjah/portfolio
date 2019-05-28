@@ -8,6 +8,8 @@
   text-align: center;
 }
 
-.additional-info-text {
+.additional-info-text p {
+  margin: 0%;
   clear: both;
+  background-color: #7b68ee;
 }

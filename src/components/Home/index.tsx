@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Card from './Card';
+import HomeCard from './HomeCard';
 import './Home.css';
 
 interface Props {
@@ -19,9 +19,9 @@ const Home: React.FC<Props> = (props: Props) => {
     <main className="home-page">
       <br />
       <div className="content-wrap">
-        <Card title="Portfolio" path="/portfolio" />
-        <Card title="About" path="/about" />
-        <Card title="CV" path="/cv" />
+        <HomeCard title="Portfolio" path="/portfolio" />
+        <HomeCard title="About" path="/about" />
+        <HomeCard title="CV" path="/cv" />
       </div>
     </main>
   );
