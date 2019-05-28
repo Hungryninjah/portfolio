@@ -61,9 +61,10 @@ const TodoList: React.FC = () => {
   const content = (
     <main className="todo-list-page">
       <AdditionalInfo>
-        <p>The goal of this project was to learn how to build a Todo List with ReactJS</p>
+        <p>Learning Objective: To make a basic todo list, utilise dynamic styling, utilise react lifecycle methods</p>
+        <p>TODO: Allow users to save lists</p>
         <p>
-          The tutorial can be found here:{' '}
+          Learning Resource:{' '}
           <a
             href="https://scrimba.com/playlist/p7P5Hd"
             className="external-link"
@@ -73,7 +74,7 @@ const TodoList: React.FC = () => {
             https://scrimba.com/playlist/p7P5Hd
           </a>{' '}
         </p>
-        <p>My own additions are the delete and submit function</p>
+        <p>Features outside tutorial example: Editing of list contents</p>
       </AdditionalInfo>
       <div className="content-wrap">
         <h1>Todo List</h1>

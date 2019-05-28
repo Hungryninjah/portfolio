@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import AdditionalInfo from '../AdditionalInfo';
 import './style.css';
 
 const MemeGeneratorApp: React.FC = () => {
@@ -37,6 +38,21 @@ const MemeGeneratorApp: React.FC = () => {
 
   const content = (
     <main className="meme-generator-page">
+      <AdditionalInfo>
+        <p>Learning objective: To execute API calls</p>
+        <p>TODO: Properly scale text, make image downloadable</p>
+        <p>
+          Learning Resource:{' '}
+          <a
+            href="https://scrimba.com/playlist/p7P5Hd"
+            className="external-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://scrimba.com/playlist/p7P5Hd
+          </a>{' '}
+        </p>
+      </AdditionalInfo>
       <form className="meme-form" onSubmit={handleSubmit}>
         <input type="text" name="topText" onChange={handleTopTxt} value={topText} placeholder="Top Text" />
         <input type="text" name="bottomText" onChange={handleBottomTxt} value={bottomText} placeholder="Bottom Text" />

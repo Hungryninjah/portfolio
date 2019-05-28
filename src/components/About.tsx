@@ -12,8 +12,8 @@ const About: React.FC = () => (
       <h2>This Website</h2>
       <p>
         I created this website using Facebook‘s React library. It started off with me just wanting to put my work on
-        display; it unexpectedly became a journey into the intricacies of HTML, CSS, JavaScript, TypeScript, UI
-        development, and an immersive course on web-development. You can access this website‘s git repository here:
+        display; it unexpectedly became an immersive course on web-development using React. You can access this
+        website‘s git repository here:
       </p>
 
       <a
@@ -22,7 +22,7 @@ const About: React.FC = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Link to Website Repo
+        Link to website‘s github repo
       </a>
 
       <h2>My Coding Environment</h2>
@@ -38,9 +38,9 @@ const About: React.FC = () => (
       <h4>OS</h4>
       <p>
         I‘ve recently become a Linux user (mid-2019) and settled on using the Debian 10 distribution (which was
-        DebianTesting during the time I wrote this). Debian 9 was indeed stable however some of the desktop apps I liked
-        were buggy and out of date. Nowadays I only use Windows whenever I have no choice but to use Microsft Word, and
-        that is through a virtual machine in Linux.
+        DebianTesting during the time I wrote this). Debian 9 was indeed stable, however some of the desktop apps I
+        liked were buggy and out of date. Nowadays I only use Windows whenever I have no choice but to use Microsft
+        Word, and that is through a virtual machine on Debian.
       </p>
       <p>
         I chose Debian because I read that it was one of the more reliable yet advanced Linux distributions, that is not
@@ -49,6 +49,7 @@ const About: React.FC = () => (
         having taken Windows for granted. I also figured that changing from Debian to Ubuntu (when the time comes)
         wouldn‘t be too much of a learning curve.
       </p>
+      <p>It is a goal of mine to be able to customise and debug the kernal.</p>
       <h4>Hardware</h4>
       <p>
         All my work is done on my humble Acer Aspire S5-371T. Its extremely loud fan that roared whenever I was using

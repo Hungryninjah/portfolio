@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import AdditionalInfo from '../AdditionalInfo';
 import ClockDisplay from './ClockDisplay';
 import './AnalogueClock.css';
-
-// The goal of this task is to translate existing JS code and convert it into
-// the react library by myself
 
 const AnalogueClock: React.FC = () => {
   const [handPositions, setHandPositions] = useState({
@@ -35,6 +33,21 @@ const AnalogueClock: React.FC = () => {
 
   return (
     <main className="analogue-clock-page">
+      <AdditionalInfo>
+        <p>Learning Objective: Refactor existing JS into React TS</p>
+        <p>TODO additional animation to show whether it‘s day or night, implement timezone calls</p>
+        <p>
+          Learning Resource:{' '}
+          <a
+            href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html"
+            className="external-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html
+          </a>{' '}
+        </p>
+      </AdditionalInfo>
       <ClockDisplay time={handPositions} />
       <div className="content-wrap">
         <p>The goal of this task was to work with existing JS code and convert it into the react library</p>
