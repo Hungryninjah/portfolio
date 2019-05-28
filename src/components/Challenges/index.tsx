@@ -7,7 +7,7 @@ import './Challenges.css';
 
 const Challenges = () => {
   const [isHackerrankVisible, setIsHackerrankVisible] = useState(false);
-  const [isProjectEulerVisible, setIsProjectEulerVisible] = useState(true);
+  const [isProjectEulerVisible, setIsProjectEulerVisible] = useState(false);
   const toggleHackerrankVis = () => {
     setIsHackerrankVisible(!isHackerrankVisible);
   };
