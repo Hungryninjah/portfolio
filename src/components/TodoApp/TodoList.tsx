@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TodoItem from './TodoItem';
-import AdditionalInformation from '../AdditionalInformation';
+import AdditionalInfo from '../AdditionalInfo';
 import todosData from './todosData';
 import './TodoList.css';
 
@@ -60,6 +60,21 @@ const TodoList: React.FC = () => {
 
   const content = (
     <main className="todo-list-page">
+      <AdditionalInfo>
+        <p>The goal of this project was to learn how to build a Todo List with ReactJS</p>
+        <p>
+          The tutorial can be found here:{' '}
+          <a
+            href="https://scrimba.com/playlist/p7P5Hd"
+            className="external-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://scrimba.com/playlist/p7P5Hd
+          </a>{' '}
+        </p>
+        <p>My own additions are the delete and submit function</p>
+      </AdditionalInfo>
       <div className="content-wrap">
         <h1>Todo List</h1>
         <div className="todo-list">
@@ -75,16 +90,6 @@ const TodoList: React.FC = () => {
             <button>Submit</button>
           </form>
         </div>
-        <AdditionalInformation>
-          <p>The goal was to learn how to build forms with ReactJS</p>
-          <p>
-            The tutorial can be found here:{' '}
-            <a href="https://scrimba.com/playlist/p7P5Hd" className="external-link">
-              https://scrimba.com/playlist/p7P5Hd
-            </a>{' '}
-          </p>
-          <p>My own addition is the delete function</p>
-        </AdditionalInformation>
       </div>
     </main>
   );

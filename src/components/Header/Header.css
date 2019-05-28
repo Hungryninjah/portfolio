@@ -7,38 +7,38 @@
 */
 
 header .header-not-home {
-    margin: 0;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    background: #AAABB8;
-  }
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background: rgb(50, 50, 50);
+}
 
 .header-not-home .full-name h1 {
-    margin: 0;
-    padding: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 header .header-home {
-    justify-content: center;
-    background: #AAABB8;
-} 
+  justify-content: center;
+  background: rgb(50, 50, 50);
+}
 
 .header-home .full-name h1 {
-    margin: 0;
-    padding: 20px;
-    font-size: 50px;
-    text-transform: uppercase;
+  margin: 0;
+  padding: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 .navbar a {
-    display: inline-block;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 20px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
 }

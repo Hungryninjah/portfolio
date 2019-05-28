@@ -1,0 +1,13 @@
+.additional-info-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.additional-info-btn {
+  width: 325px;
+  text-align: center;
+}
+
+.additional-info-text {
+  clear: both;
+}
