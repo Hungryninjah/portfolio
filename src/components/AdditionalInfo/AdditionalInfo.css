@@ -4,7 +4,9 @@
 }
 
 .additional-info-btn {
-  width: 325px;
+  width: 225px;
+  height: 20px;
+  font-size: 12px;
   text-align: center;
 }
 

@@ -13,6 +13,40 @@ h1 {
 .home-page {
   text-align: center;
 }
+.home-image {
+  width: 150px;
+}
+.home-wrap {
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.home-card {
+  padding: 20px;
+  margin-top: 40px;
+  background: rgb(50, 50, 50);
+}
+
+.home-card:hover {
+  background: rgb(30, 30, 30);
+}
+
+.home-card .col1 {
+  display: inline;
+}
+.home-card .col2 {
+  width: 50%;
+  height: 155px;
+  float: right;
+  text-align: left;
+}
+
+.home-card .col2 h2 {
+  margin: 0;
+  margin-top: 38px;
+  font-size: 50px;
+}
 
 .qod-wrap {
   width: 700px;
@@ -25,14 +59,13 @@ h1 {
 }
 
 .qod-author {
-  text-align: right;
   padding: 0;
   margin: 0;
   font-size: 20px;
+  text-align: right;
 }
 .qod-acknowledgement {
   font-size: 10px;
   text-align: right;
   margin-top: 0px;
-  margin-bottom: 25px;
 }

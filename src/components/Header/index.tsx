@@ -11,11 +11,9 @@ const Header: React.FC<Props> = (props: Props) => {
     return (
       <header>
         <div className="header-home">
-          <NavLink to="/">
-            <div className="full-name">
-              <h1>Jude Michael Lim</h1>
-            </div>
-          </NavLink>
+          <div className="full-name">
+            <h1>Jude Michael Lim</h1>
+          </div>
         </div>
       </header>
     );

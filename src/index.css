@@ -30,15 +30,18 @@ body {
 }
 
 main {
-  background-color: #25274d;
-  color: white;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 0px 50px 0px;
   min-height: 80vh;
   clear: both;
   overflow: auto;
+  background-color: #25274d;
+  color: white;
 }
 
 /*Global Headings*/
+h1 {
+  font-size: 3rem;
+}
 h2 {
   clear: both;
 }
@@ -46,7 +49,7 @@ h2 {
 /*Global Layouts */
 
 .content-wrap {
-  max-width: 75vw;
+  max-width: 60vw;
   margin: 0 auto;
 }
 
@@ -67,14 +70,18 @@ h2 {
 
 /*Links*/
 a {
-  color: white;
   margin: 0;
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a.external-link {
-  color: white;
   text-decoration: underline;
+  color: white;
 }
 
 code {

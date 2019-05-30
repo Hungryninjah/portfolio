@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { UnmountClosed } from 'react-collapse';
 import EmbeddedGist from './EmbeddedGist';
-import hackerrankList from './hackerrank_list.json';
-import projecteulerList from './projecteuler_list.json';
+import hackerrankList from './coding_challenges/hackerrank_list.json';
+import projecteulerList from './coding_challenges/projecteuler_list.json';
 import './Challenges.css';
 
 const Challenges = () => {
@@ -15,8 +15,8 @@ const Challenges = () => {
     setIsProjectEulerVisible(!isProjectEulerVisible);
   };
   return (
-    <main>
-      <div className="content-wrap">
+    <main className="challenges">
+      <div className="challenges-content-wrap">
         <h1>Coding Challenges</h1>
 
         <h2>Hackerrank Challenges</h2>

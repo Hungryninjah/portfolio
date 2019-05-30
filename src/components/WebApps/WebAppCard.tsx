@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from './images/tile.png';
 
 interface Props {
   title: string;
   path: string;
+  imgSrc: string;
 }
 
 const WebAppCard: React.FC<Props> = (props: Props) => (
-  <div className="webapp-card-container">
+  <div className="webapp-card">
     <Link to={props.path}>
-      <img src={image1} alt="webapp-link" className="webapp-image" />
+      <img src={props.imgSrc} alt="webapp-link" className="webapp-image" />
       <p>{props.title}</p>
     </Link>
   </div>

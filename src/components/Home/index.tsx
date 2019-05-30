@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import HomeCard from './HomeCard';
+import portfolioImg from './images/portfolio.png';
+import cvImg from './images/cv.png';
+import aboutImg from './images/about.png';
 import './Home.css';
 
 interface Props {
@@ -13,10 +16,9 @@ const Home: React.FC<Props> = (props: Props) => {
 
   useEffect(() => {
     props.homeHeader();
-    fetch('http://quotes.rest/qod.json')
+    fetch('https://quotes.rest/qod.json')
       .then(response => response.json())
       .then(myJson => {
-        console.log(myJson.contents.quotes[0]);
         setQuote(myJson.contents.quotes[0].quote);
         setAuthor(myJson.contents.quotes[0].author);
       });
@@ -38,10 +40,10 @@ const Home: React.FC<Props> = (props: Props) => {
           </a>
         </p>
       </div>
-      <div className="content-wrap">
-        <HomeCard title="Portfolio" path="/portfolio" />
-        <HomeCard title="About" path="/about" />
-        <HomeCard title="CV" path="/cv" />
+      <div className="home-wrap">
+        <HomeCard title="Portfolio" path="/portfolio" imgPath={portfolioImg} />
+        <HomeCard title="About" path="/about" imgPath={aboutImg} />
+        <HomeCard title="CV" path="/cv" imgPath={cvImg} />
       </div>
     </main>
   );

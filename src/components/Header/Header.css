@@ -33,6 +33,11 @@ header .header-home {
   text-transform: uppercase;
 }
 
+.header-home a,
+.header-not-home a {
+  text-decoration: none;
+}
+
 .navbar a {
   display: inline-block;
   color: white;
@@ -41,4 +46,8 @@ header .header-home {
   text-transform: uppercase;
   text-decoration: none;
   padding: 20px;
+}
+
+.header-not-home a:hover {
+  background-color: rgb(30, 30, 30);
 }

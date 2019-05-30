@@ -49,7 +49,7 @@ const About: React.FC = () => (
         for granted. I also figured that changing from Debian to Ubuntu (when the time comes) wouldn‘t be too much of a
         learning curve.
       </p>
-      <p>It is a goal of mine to be able to customise and debug the kernal.</p>
+      <p>My goal is to be able to customise and debug the kernal.</p>
       <h4>Hardware</h4>
       <p>
         All my work is done on my humble Acer Aspire S5-371T. Its extremely loud fan that roared whenever I was using

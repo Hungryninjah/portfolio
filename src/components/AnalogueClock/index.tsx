@@ -34,7 +34,7 @@ const AnalogueClock: React.FC = () => {
   return (
     <main className="analogue-clock-page">
       <AdditionalInfo>
-        <p>Learning Objective: Refactor existing JS into React TS</p>
+        <p>Learning Objective: Refactor vanilla JS into React TS</p>
         <p>TODO additional animation to show whether it‘s day or night, implement timezone calls</p>
         <p>
           Learning Resource:{' '}
@@ -48,6 +48,7 @@ const AnalogueClock: React.FC = () => {
           </a>{' '}
         </p>
       </AdditionalInfo>
+      <h1>Analogue Clock</h1>
       <ClockDisplay time={handPositions} />
       <div className="content-wrap">
         <p>The goal of this task was to work with existing JS code and convert it into the react library</p>
