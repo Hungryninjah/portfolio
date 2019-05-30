@@ -13,3 +13,26 @@ h1 {
 .home-page {
   text-align: center;
 }
+
+.qod-wrap {
+  width: 700px;
+  margin: 0% auto;
+}
+
+.qod-quote {
+  margin: 0;
+  font-size: 26px;
+}
+
+.qod-author {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+.qod-acknowledgement {
+  font-size: 10px;
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}

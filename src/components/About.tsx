@@ -43,11 +43,11 @@ const About: React.FC = () => (
         Word, and that is through a virtual machine on Debian.
       </p>
       <p>
-        I chose Debian because I read that it was one of the more reliable yet advanced Linux distributions, that is not
-        reccomended for beginners. Having no experience with Linux, I figured this would be a challenging and rewarding
-        learning experience. I‘m enjoying the customisability of Linux and the little challenges I regularly face from
-        having taken Windows for granted. I also figured that changing from Debian to Ubuntu (when the time comes)
-        wouldn‘t be too much of a learning curve.
+        I chose Debian because I read that it was one of the more reliable Linux distributions reccomended for advanced
+        users. Having no experience with Linux, I figured this would be a challenging and rewarding learning experience.
+        I‘m enjoying the customisability of Linux and the little challenges I regularly face from having taken Windows
+        for granted. I also figured that changing from Debian to Ubuntu (when the time comes) wouldn‘t be too much of a
+        learning curve.
       </p>
       <p>It is a goal of mine to be able to customise and debug the kernal.</p>
       <h4>Hardware</h4>
