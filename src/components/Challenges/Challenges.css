@@ -1,6 +1,6 @@
 .challenges-table {
   display: flex;
-  background-color: black;
+  background-color: rgb(30, 30, 30);
   border: 2px solid white;
   text-align: center;
 }
@@ -13,6 +13,7 @@
   width: 35%;
   border-right: 2px solid white;
   text-align: left;
+  padding-left: 10px;
 }
 
 .ct-col2 {
@@ -39,3 +40,8 @@
 .gist {
   clear: both;
 }
+
+/* https://github.com/lonekorean/gist-syntax-themes */
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
