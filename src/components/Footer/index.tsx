@@ -1,5 +1,6 @@
 import React from 'react';
-import './index.css';
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer>
@@ -7,6 +8,7 @@ const Footer = () => (
     <p>Email: judemlim@gmail.com</p>
     <p>Mobile: 0426219951</p>
     <p>Copyright Jude Michael Lim</p>
+    <Link to="/imprint">Imprint</Link>
   </footer>
 );
 

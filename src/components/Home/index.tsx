@@ -14,6 +14,7 @@ interface Props {
 const Home: React.FC<Props> = (props: Props) => {
   const [quote, setQuote] = useState();
   const [author, setAuthor] = useState();
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     props.homeHeader();
@@ -25,13 +26,23 @@ const Home: React.FC<Props> = (props: Props) => {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    let item = quotes.quotes[Math.floor(Math.random() * quotes.quotes.length)];
+    setQuote(item.quote);
+    setAuthor(item.author);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [count]);
+
   const content = (
     <main className="home-page">
       <br />
       <div className="rqg-wrap">
         <p className="rqg-quote">“{quote}”</p>
         <p className="rqg-author">~ {author}</p>
-        <p className="rqg-info">Random Quote Generator</p>
+        <button className="rqg-info" onClick={() => setCount(count + 1)}>
+          Random Quote Generator
+        </button>
       </div>
       <div className="home-wrap">
         <HomeCard title="Portfolio" path="/portfolio" imgPath={portfolioImg} />
