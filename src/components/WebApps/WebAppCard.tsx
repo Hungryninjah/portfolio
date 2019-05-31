@@ -8,12 +8,12 @@ interface Props {
 }
 
 const WebAppCard: React.FC<Props> = (props: Props) => (
-  <div className="webapp-card">
-    <Link to={props.path}>
+  <Link to={props.path}>
+    <div className="webapp-card">
       <img src={props.imgSrc} alt="webapp-link" className="webapp-image" />
       <p>{props.title}</p>
-    </Link>
-  </div>
+    </div>
+  </Link>
 );
 
 export default WebAppCard;

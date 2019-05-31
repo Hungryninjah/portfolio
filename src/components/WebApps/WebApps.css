@@ -4,10 +4,16 @@
 }
 
 .webapp-card {
-  width: 200px;
-  padding: 10px;
+  width: 180px;
+  padding: 10px 10px 0px 10px;
+  margin: 10px;
   float: left;
+  background-color: rgb(50, 50, 50);
   text-align: center;
+}
+
+.webapp-card:hover {
+  background: rgb(30, 30, 30);
 }
 
 .webapp-image {
