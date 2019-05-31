@@ -48,23 +48,23 @@ h1 {
   font-size: 50px;
 }
 
-.qod-wrap {
+.rqg-wrap {
   width: 700px;
   margin: 0% auto;
 }
 
-.qod-quote {
+.rqg-quote {
   margin: 0;
   font-size: 26px;
 }
 
-.qod-author {
+.rqg-author {
   padding: 0;
   margin: 0;
   font-size: 20px;
   text-align: right;
 }
-.qod-acknowledgement {
+.rqg-info {
   font-size: 10px;
   text-align: right;
   margin-top: 0px;
