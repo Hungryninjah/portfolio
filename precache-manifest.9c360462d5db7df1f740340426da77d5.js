@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b983fd7fbb85eca678052675a90645af",
+    "revision": "34e29463e20ec070b452e911f7df7071",
     "url": "/index.html"
   },
   {
-    "revision": "f66a1acbbd38fa36124c",
-    "url": "/static/css/main.662d3550.chunk.css"
+    "revision": "b60e48defc40c3727670",
+    "url": "/static/css/main.195cf58f.chunk.css"
   },
   {
-    "revision": "d22f43ad15eb83bc554f",
-    "url": "/static/js/2.d4e868f6.chunk.js"
+    "revision": "ba82c2fcd79c6a6212de",
+    "url": "/static/js/2.054c7963.chunk.js"
   },
   {
-    "revision": "f66a1acbbd38fa36124c",
-    "url": "/static/js/main.50fb4d56.chunk.js"
+    "revision": "b60e48defc40c3727670",
+    "url": "/static/js/main.513046a0.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cv.98df7f5d.png"
   },
   {
+    "revision": "c9be0502a964b2268e541cfe94c8cd6a",
+    "url": "/static/media/domain.c9be0502.png"
+  },
+  {
     "revision": "651ace53bffd7a82170f458bfa54af11",
     "url": "/static/media/masks.651ace53.png"
   },
@@ -48,7 +52,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/todo-list.1e55bb8a.png"
   },
   {
-    "revision": "0a5ffa1c4436648169429bf6db7a4ea4",
-    "url": "/static/media/web-apps.0a5ffa1c.png"
+    "revision": "4ab78ae90b1e99faab38b0cdcb32c94d",
+    "url": "/static/media/uni-student.4ab78ae9.png"
+  },
+  {
+    "revision": "7d997921db61529e4c7993ba31a1f221",
+    "url": "/static/media/web-apps.7d997921.png"
   }
 ]);
