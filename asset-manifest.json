@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.195cf58f.chunk.css",
+    "main.css": "/static/css/main.963a8ecb.chunk.css",
     "main.js": "/static/js/main.9a531286.chunk.js",
     "main.js.map": "/static/js/main.9a531286.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.054c7963.chunk.js": "/static/js/2.054c7963.chunk.js",
     "static/js/2.054c7963.chunk.js.map": "/static/js/2.054c7963.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.041b950e8bb7c39a23c3cd56adaa3cc7.js": "/precache-manifest.041b950e8bb7c39a23c3cd56adaa3cc7.js",
+    "precache-manifest.4320633352078eb01cd3fbd4a44ed695.js": "/precache-manifest.4320633352078eb01cd3fbd4a44ed695.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.195cf58f.chunk.css.map": "/static/css/main.195cf58f.chunk.css.map",
+    "static/css/main.963a8ecb.chunk.css.map": "/static/css/main.963a8ecb.chunk.css.map",
     "static/media/about.png": "/static/media/about.765728fe.png",
     "static/media/clock.png": "/static/media/clock.6cb69f83.png",
     "static/media/coding-challenges.png": "/static/media/coding-challenges.f7699b13.png",
