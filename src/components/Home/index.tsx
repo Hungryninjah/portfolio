@@ -38,10 +38,10 @@ const Home: React.FC<Props> = (props: Props) => {
     <main className="home-page">
       <br />
       <div className="rqg-wrap">
-        <p className="rqg-quote">“{quote}”</p>
+        <p className="rqg-quote">‘{quote}’</p>
         <p className="rqg-author">~ {author}</p>
         <button className="rqg-info" onClick={() => setCount(count + 1)}>
-          Random Quote Generator
+          NEW QUOTE
         </button>
       </div>
       <div className="home-wrap">
