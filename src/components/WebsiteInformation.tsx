@@ -29,7 +29,7 @@ const WebsiteInformation = () => {
           I developed this website using Visual Studio Code, with ESLint as my linter, and the prettier package as my
           formatter.
         </p>
-        <h2>Major Projects Events</h2>
+        <h2>Major Project Events</h2>
         <ol>
           <li>Initially developed in JavaScript</li>
           <li>Added linter and formatter to production environment</li>

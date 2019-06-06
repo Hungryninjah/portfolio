@@ -22,6 +22,7 @@ const About: React.FC = () => (
       </Link>
 
       <h2>My Coding Environment</h2>
+      <h4>IDEs and Text Editors</h4>
       <p>I use different text editors/IDEs depending on what I‘m trying to achieve:</p>
       <ul>
         <li>For web development I use Visual Studio Code</li>
@@ -29,8 +30,6 @@ const About: React.FC = () => (
         <li>For coding Java I use Intellij</li>
         <li>For coding C++ I use Microsoft Visual Studio.</li>
       </ul>
-
-      <h2>My Setup</h2>
       <h4>OS</h4>
       <p>
         I‘ve recently become a Linux user (mid-2019) and settled on using the Debian 10 distribution (which was
