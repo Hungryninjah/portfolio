@@ -12,7 +12,7 @@
     "key": 1,
     "title": "Tree: Height of a Binary Tree",
     "url": "https://gist.github.com/judemlim/e786a2c688a2cd9617b360bcf0ec82d2",
-    "challengeLink": "https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/submissions/code/106905790",
+    "challengeLink": "https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem",
     "language": "Python",
     "difficulty": "Easy",
     "dateCompleted": "08/05/2019"
@@ -21,7 +21,7 @@
     "key": 2,
     "title": "Flipping Bits",
     "url": "https://gist.github.com/judemlim/b39eda54c70daa3643beefe29da8bd1c",
-    "challengeLink": "https://www.hackerrank.com/challenges/flipping-bits/submissions/code/106727705",
+    "challengeLink": "https://www.hackerrank.com/challenges/flipping-bits/problem",
     "language": "Python",
     "difficulty": "Easy",
     "dateCompleted": "06/05/2019"
@@ -30,7 +30,7 @@
     "key": 3,
     "title": "Recursion: Fibonacci Numbers",
     "url": "https://gist.github.com/judemlim/380a71499d8eb052185c894c42e7c80a",
-    "challengeLink": "https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/submissions/code/105780420",
+    "challengeLink": "https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem",
     "language": "Python",
     "difficulty": "Easy",
     "dateCompleted": "Early 2019"

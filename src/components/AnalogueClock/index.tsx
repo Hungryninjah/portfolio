@@ -50,9 +50,6 @@ const AnalogueClock: React.FC = () => {
       </AdditionalInfo>
       <h1>Analogue Clock</h1>
       <ClockDisplay time={handPositions} />
-      <div className="content-wrap">
-        <p>The goal of this task was to work with existing JS code and convert it into the react library</p>
-      </div>
     </main>
   );
 };

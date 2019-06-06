@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 interface Props {
@@ -21,15 +21,15 @@ const Header: React.FC<Props> = (props: Props) => {
   return (
     <header>
       <div className="header-not-home">
-        <NavLink to="/">
+        <Link to="/">
           <div className="full-name">
             <h1>Jude Michael Lim</h1>
           </div>
-        </NavLink>
+        </Link>
         <nav className="navbar">
-          <NavLink to="/portfolio">Portfolio</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/cv">CV</NavLink>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/about">About</Link>
+          <Link to="/cv">CV</Link>
         </nav>
       </div>
     </header>

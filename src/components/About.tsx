@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About: React.FC = () => (
   <main className="About">
@@ -6,24 +7,19 @@ const About: React.FC = () => (
     <div className="content-wrap">
       <h2>Welcome!</h2>
       <p>
-        Welcome to my website! Here I showcase the various programming works I’ve completed to improve my coding
+        Welcome to my website! Here I showcase the various programming works I’ve completed to improve my programming
         skill-set.
       </p>
       <h2>This Website</h2>
       <p>
         I created this website using Facebook‘s React library. It started off with me just wanting to put my work on
-        display; it unexpectedly became an immersive course on web-development using React. You can access this
-        website‘s git repository here:
+        display; it unexpectedly became an immersive course on web-development using React. To learn more about this
+        website, you can access the project page here:
       </p>
 
-      <a
-        href="https://github.com/judemlim/judemlim.github.io.git"
-        className="external-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Link to website‘s github repo
-      </a>
+      <Link to="/portfolio/website-information" className="external-link" target="_blank" rel="noopener noreferrer">
+        Link to website’s project page
+      </Link>
 
       <h2>My Coding Environment</h2>
       <p>I use different text editors/IDEs depending on what I‘m trying to achieve:</p>
@@ -49,7 +45,7 @@ const About: React.FC = () => (
         for granted. I also figured that changing from Debian to Ubuntu (when the time comes) wouldn‘t be too much of a
         learning curve.
       </p>
-      <p>My goal is to be able to customise and debug the kernal.</p>
+      <p>A goal of mine is to be able to customise and debug the kernal.</p>
       <h4>Hardware</h4>
       <p>
         All my work is done on my humble Acer Aspire S5-371T. Its extremely loud fan that roared whenever I was using

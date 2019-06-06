@@ -1,7 +1,7 @@
 .challenges-table {
   display: flex;
   background-color: rgb(30, 30, 30);
-  border: 2px solid white;
+  border: 2px solid rgb(80, 80, 80);
   text-align: center;
 }
 
@@ -16,30 +16,30 @@
 
 .ct-col1 {
   width: 35%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
   padding-left: 10px;
   text-align: left;
 }
 
 .ct-col2 {
   width: 18%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
 }
 .ct-col3 {
   width: 9%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
 }
 .ct-col4 {
   width: 15%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
 }
 .ct-col5 {
   width: 15%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
 }
 .ct-col6 {
   width: 8%;
-  border-right: 2px solid white;
+  border-right: 2px solid rgb(80, 80, 80);
 }
 
 .gist {

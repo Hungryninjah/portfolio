@@ -18,8 +18,8 @@ const Challenges = () => {
     <main className="challenges">
       <div className="challenges-content-wrap">
         <h1>Coding Challenges</h1>
-
-        <h2>Hackerrank Challenges</h2>
+        <h2>Here are a list of coding challenges I’ve completed</h2>
+        <h3>Hackerrank Challenges</h3>
         <button onClick={() => toggleHackerrankVis()}>{isHackerrankVisible ? 'Hide all' : 'Show all'}</button>
 
         <UnmountClosed isOpened={isHackerrankVisible}>
@@ -42,7 +42,7 @@ const Challenges = () => {
           ))}
         </UnmountClosed>
 
-        <h2>Project Euler Challenges</h2>
+        <h3>Project Euler Challenges</h3>
         <button onClick={() => toggleProjectEulerVis()}>{isProjectEulerVisible ? 'Hide all' : 'Show all'}</button>
         <UnmountClosed isOpened={isProjectEulerVisible}>
           <div className="challenges-table header">
