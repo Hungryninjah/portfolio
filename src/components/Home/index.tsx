@@ -41,7 +41,7 @@ const Home: React.FC<Props> = (props: Props) => {
         <p className="rqg-quote">‘{quote}’</p>
         <p className="rqg-author">~ {author}</p>
         <button className="rqg-info" onClick={() => setCount(count + 1)}>
-          NEW QUOTE
+          CLICK FOR NEW QUOTE
         </button>
       </div>
       <div className="home-wrap">
