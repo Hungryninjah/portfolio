@@ -7,14 +7,14 @@ const WebsiteInformation = () => {
         <h1>Website Information</h1>
         <h2>General Information</h2>
         <p>
-          This website was created using Facebook’s <br>React</br> library. It is written primarily in
-          <br>TypeScript</br> and mainly employs React stateful functional components as opposed to the more wide-spread
-          class based components.
+          This website was created using Facebook’s <strong>React</strong> library. It is written primarily in
+          <strong>TypeScript</strong> and mainly employs React stateful functional components as opposed to the more
+          wide-spread class based components.
         </p>
         <p>
-          All the programming language features I display on this website, <br>HTML</br>, <br>CSS</br>,
-          <br>JavaScript</br>, <br>TypeScript</br>, were all learnt from watching youtube tutorials, online courses on
-          Lynda, and through reading documentation from official sources.
+          All the programming language features I display on this website, <strong>HTML</strong>, <strong>CSS</strong>,
+          <strong>JavaScript</strong>, <strong>TypeScript</strong>, were all learnt from watching youtube tutorials,
+          online courses on Lynda, and through reading documentation from official sources.
         </p>
         <p>This website is hosted using github pages. The repository for this website can be accessed here:</p>
         <a
