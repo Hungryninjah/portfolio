@@ -10,10 +10,10 @@ const Portfolio: React.FC = () => (
   <main className="portfolio">
     <div className="portfolio-wrap">
       <h1>Portfolio</h1>
-      <PortfolioCard title="Web Apps" path="/portfolio/web-apps" imgSrc={webAppImg} />
-      <PortfolioCard title="Coding Challenges" path="/portfolio/coding-challenges" imgSrc={codingChallengesImg} />
       <PortfolioCard title="Website Information" path="/portfolio/website-information" imgSrc={domainImg} />
       <PortfolioCard title="Uni Projects" path="/portfolio/uni-projects" imgSrc={uniImg} />
+      <PortfolioCard title="Web Apps" path="/portfolio/web-apps" imgSrc={webAppImg} />
+      <PortfolioCard title="Coding Challenges" path="/portfolio/coding-challenges" imgSrc={codingChallengesImg} />
     </div>
   </main>
 );
