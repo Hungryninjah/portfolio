@@ -5,7 +5,7 @@ const WebsiteInformation = () => {
     <main className="website-information">
       <div className="content-wrap">
         <h1>Website Information</h1>
-        <h2>General Information</h2>
+        <h2>General Information aoeu</h2>
         <p>
           This website was created using Facebook’s <strong>React</strong> library. It is written primarily in{' '}
           <strong>TypeScript</strong> and mainly employs React stateful functional components as opposed to the more
