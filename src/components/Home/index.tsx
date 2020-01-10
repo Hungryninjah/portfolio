@@ -24,14 +24,12 @@ const Home: React.FC<Props> = (props: Props) => {
     return () => {
       props.awayHeader();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     let item = quotes.quotes[Math.floor(Math.random() * quotes.quotes.length)];
     setQuote(item.quote);
     setAuthor(item.author);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [count]);
 
   const content = (

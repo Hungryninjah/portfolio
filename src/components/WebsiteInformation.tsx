@@ -16,7 +16,10 @@ const WebsiteInformation = () => {
           <strong>JavaScript</strong>, <strong>TypeScript</strong>, were all learnt from watching youtube tutorials,
           online courses on Lynda, and through reading documentation from official sources.
         </p>
-        <p>This website is hosted using github pages. The repository for this website can be accessed here:</p>
+        <p>
+          This website is hosted using <strong>github pages</strong>. The repository for this website can be accessed
+          here:
+        </p>
         <a
           href="https://github.com/judemlim/judemlim.github.io.git"
           className="external-link"
