@@ -14,7 +14,7 @@ const UniProjects = () => {
         <h1>University Projects</h1>
         <CardSmall imgSrc={chatRoomImg} path="/portfolio/uni-projects/chat-room" title="Chat Room" />
         <CardSmall imgSrc={tripPlannerImg} path="/portfolio/uni-projects/trip-planner" title="Trip Planner" />
-        <CardSmall imgSrc={opinionMiner} path="/portfolio/uni-projects/opinion-miner" title="Opinion Mining" />
+        <CardSmall imgSrc={opinionMiner} path="/portfolio/uni-projects/opinion-miner" title="Opinion Miner" />
         <CardSmall imgSrc={schedulerImg} path="/portfolio/uni-projects/scheduler" title="Scheduler" />
         <CardSmall imgSrc={patternFinderImg} path="/portfolio/uni-projects/pattern-finder" title="Pattern Finder" />
         <CardSmall imgSrc={romanNumeralImg} path="/portfolio/uni-projects/roman-numerals" title="Roman Numerals" />
