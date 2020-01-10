@@ -41,6 +41,7 @@ const WebsiteInformation = () => {
           <li>Refactored into using React hooks and only functional components</li>
           <li>Automated publishing of website changes using github’s branch relationships</li>
           <li>Implemented hash-routing to solve server side rendering issues with React</li>
+          <li>Added the Random Quote Generator at the home page for quick doses of inspiration</li>
         </ol>
       </div>
     </main>

@@ -7,6 +7,12 @@ import Error from './Error';
 import Portfolio from './Portfolio';
 import WebsiteInformation from './WebsiteInformation';
 import UniProjects from './UniProjects';
+import ChatRoom from './ChatRoom';
+import OpinionMiner from './OpinionMiner';
+import PatternFinder from './PatternFinder';
+import RomanNumerals from './RomanNumerals';
+import Scheduler from './Scheduler';
+import TripPlanner from './TripPlanner';
 import Challenges from './Challenges';
 import WebApps from './WebApps';
 import TodoList from './TodoList';
@@ -44,6 +50,12 @@ const App: React.FC = () => {
         <Route exact path="/portfolio/web-apps/meme-generator" component={MemeGenerator} />
         <Route exact path="/portfolio/web-apps/analogue-clock" component={AnalogueClock} />
         <Route exact path="/portfolio/uni-projects" component={UniProjects} />
+        <Route exact path="/portfolio/uni-projects/chat-room" component={ChatRoom} />
+        <Route exact path="/portfolio/uni-projects/opinion-miner" component={OpinionMiner} />
+        <Route exact path="/portfolio/uni-projects/pattern-finder" component={PatternFinder} />
+        <Route exact path="/portfolio/uni-projects/roman-numerals" component={RomanNumerals} />
+        <Route exact path="/portfolio/uni-projects/scheduler" component={Scheduler} />
+        <Route exact path="/portfolio/uni-projects/trip-planner" component={TripPlanner} />
         <Route exact path="/portfolio/coding-challenges" component={Challenges} />
         <Route exact path="/cv" component={CV} />
         <Route exact path="/about" component={About} />

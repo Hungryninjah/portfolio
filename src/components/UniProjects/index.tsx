@@ -1,13 +1,23 @@
 import React from 'react';
 import CardSmall from '../CardSmall';
 import romanNumeralImg from './images/roman-numerals.png';
+import chatRoomImg from './images/chat-room.png';
+import opinionMiner from './images/opinion-mining.png';
+import patternFinderImg from './images/pattern-finder.png';
+import schedulerImg from './images/scheduling.png';
+import tripPlannerImg from './images/trip-planner.png';
 
 const UniProjects = () => {
   return (
     <main className="uniprojects-page">
       <div className="small-card-wrap">
-        <h1>University Assignments</h1>
-        <CardSmall imgSrc={romanNumeralImg} path="/portfolio/web-apps/analogue-clock" title="Roman Numerals" />
+        <h1>University Projects</h1>
+        <CardSmall imgSrc={chatRoomImg} path="/portfolio/uni-projects/chat-room" title="Chat Room" />
+        <CardSmall imgSrc={tripPlannerImg} path="/portfolio/uni-projects/trip-planner" title="Trip Planner" />
+        <CardSmall imgSrc={opinionMiner} path="/portfolio/uni-projects/opinion-miner" title="Opinion Mining" />
+        <CardSmall imgSrc={schedulerImg} path="/portfolio/uni-projects/scheduler" title="Scheduler" />
+        <CardSmall imgSrc={patternFinderImg} path="/portfolio/uni-projects/pattern-finder" title="Pattern Finder" />
+        <CardSmall imgSrc={romanNumeralImg} path="/portfolio/uni-projects/roman-numerals" title="Roman Numerals" />
       </div>
     </main>
   );
