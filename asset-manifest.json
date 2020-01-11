@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.41576241.chunk.css",
-    "main.js": "/static/js/main.b39332c4.chunk.js",
-    "main.js.map": "/static/js/main.b39332c4.chunk.js.map",
+    "main.css": "/static/css/main.7ff7f62d.chunk.css",
+    "main.js": "/static/js/main.fdc8741f.chunk.js",
+    "main.js.map": "/static/js/main.fdc8741f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5db988e9.js",
     "runtime-main.js.map": "/static/js/runtime-main.5db988e9.js.map",
-    "static/js/2.795b1418.chunk.js": "/static/js/2.795b1418.chunk.js",
-    "static/js/2.795b1418.chunk.js.map": "/static/js/2.795b1418.chunk.js.map",
+    "static/js/2.b55be90a.chunk.js": "/static/js/2.b55be90a.chunk.js",
+    "static/js/2.b55be90a.chunk.js.map": "/static/js/2.b55be90a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.70ec9fd76db32bb0e3d364925975957b.js": "/precache-manifest.70ec9fd76db32bb0e3d364925975957b.js",
+    "precache-manifest.ef3be4315e3cab298c5159452917b47e.js": "/precache-manifest.ef3be4315e3cab298c5159452917b47e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.41576241.chunk.css.map": "/static/css/main.41576241.chunk.css.map",
-    "static/js/2.795b1418.chunk.js.LICENSE": "/static/js/2.795b1418.chunk.js.LICENSE",
+    "static/css/main.7ff7f62d.chunk.css.map": "/static/css/main.7ff7f62d.chunk.css.map",
+    "static/js/2.b55be90a.chunk.js.LICENSE": "/static/js/2.b55be90a.chunk.js.LICENSE",
+    "static/media/9021_assignment_1.pdf": "/static/media/9021_assignment_1.2e3a662f.pdf",
     "static/media/about.png": "/static/media/about.765728fe.png",
     "static/media/chat-room.png": "/static/media/chat-room.ec84a0c1.png",
     "static/media/clock.png": "/static/media/clock.6cb69f83.png",
@@ -24,6 +25,9 @@
     "static/media/portfolio.png": "/static/media/portfolio.c96f9182.png",
     "static/media/roman-numerals.png": "/static/media/roman-numerals.1a6115d7.png",
     "static/media/scheduling.png": "/static/media/scheduling.ff8dbdee.png",
+    "static/media/task1.png": "/static/media/task1.4e841935.png",
+    "static/media/task2.png": "/static/media/task2.5fa6de1e.png",
+    "static/media/task3.png": "/static/media/task3.8d764867.png",
     "static/media/todo-list.png": "/static/media/todo-list.1e55bb8a.png",
     "static/media/trip-planner.png": "/static/media/trip-planner.9b48b7cb.png",
     "static/media/uni-student.png": "/static/media/uni-student.4ab78ae9.png",
@@ -31,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5db988e9.js",
-    "static/js/2.795b1418.chunk.js",
-    "static/css/main.41576241.chunk.css",
-    "static/js/main.b39332c4.chunk.js"
+    "static/js/2.b55be90a.chunk.js",
+    "static/css/main.7ff7f62d.chunk.css",
+    "static/js/main.fdc8741f.chunk.js"
   ]
 }
