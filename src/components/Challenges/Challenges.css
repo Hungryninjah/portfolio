@@ -41,12 +41,3 @@
   width: 8%;
   border-right: 2px solid rgb(80, 80, 80);
 }
-
-.gist {
-  clear: both;
-}
-
-/* https://github.com/lonekorean/gist-syntax-themes */
-@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
