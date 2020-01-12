@@ -9,7 +9,7 @@ import WebsiteInformation from './WebsiteInformation';
 import UniProjects from './UniProjects';
 import ChatRoom from './ChatRoom';
 import OpinionMiner from './OpinionMiner';
-import PatternFinder from './PatternFinder';
+import Polygons from './Polygons';
 import RomanNumerals from './RomanNumerals';
 import Scheduler from './Scheduler';
 import TripPlanner from './TripPlanner';
@@ -52,7 +52,7 @@ const App: React.FC = () => {
         <Route exact path="/portfolio/uni-projects" component={UniProjects} />
         <Route exact path="/portfolio/uni-projects/chat-room" component={ChatRoom} />
         <Route exact path="/portfolio/uni-projects/opinion-miner" component={OpinionMiner} />
-        <Route exact path="/portfolio/uni-projects/pattern-finder" component={PatternFinder} />
+        <Route exact path="/portfolio/uni-projects/polygons" component={Polygons} />
         <Route exact path="/portfolio/uni-projects/roman-numerals" component={RomanNumerals} />
         <Route exact path="/portfolio/uni-projects/scheduler" component={Scheduler} />
         <Route exact path="/portfolio/uni-projects/trip-planner" component={TripPlanner} />

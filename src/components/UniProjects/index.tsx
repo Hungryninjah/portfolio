@@ -16,7 +16,7 @@ const UniProjects = () => {
         <CardSmall imgSrc={tripPlannerImg} path="/portfolio/uni-projects/trip-planner" title="Trip Planner" />
         <CardSmall imgSrc={opinionMinerImg} path="/portfolio/uni-projects/opinion-miner" title="Opinion Miner" />
         <CardSmall imgSrc={schedulerImg} path="/portfolio/uni-projects/scheduler" title="Scheduler" />
-        <CardSmall imgSrc={patternFinderImg} path="/portfolio/uni-projects/pattern-finder" title="Pattern Finder" />
+        <CardSmall imgSrc={patternFinderImg} path="/portfolio/uni-projects/polygons" title="Polygons" />
         <CardSmall imgSrc={romanNumeralImg} path="/portfolio/uni-projects/roman-numerals" title="Roman Numerals" />
       </div>
     </main>
