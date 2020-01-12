@@ -10,7 +10,7 @@ const OpinionMiner = () => {
         <h1>Opinion Miner</h1>
         <h2>Assignment Background Information</h2>
         <ul>
-          <li>Course: COMP9021 - Principles of Programming</li>
+          <li>Course: COMP9414 - Artificial Intelligence</li>
           <li>Date submitted: 09/08/2019</li>
           <li>Language: Python3</li>
           <li>Resulting mark: 98%</li>
