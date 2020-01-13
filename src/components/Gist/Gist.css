@@ -1,4 +1,27 @@
-.challenges-content-wrap {
+.gist-table {
+  display: flex;
+  background-color: rgb(30, 30, 30);
+  border: 2px solid rgb(80, 80, 80);
+  text-align: center;
+}
+
+.gist-content-wrap {
   width: 75vw;
   margin: 0 auto;
+}
+
+.gist-table.header .ct-col1 {
+  text-align: center;
+}
+
+.gt-col1 {
+  width: 92%;
+  border-right: 2px solid rgb(80, 80, 80);
+  padding-left: 10px;
+  text-align: left;
+}
+
+.gt-col2 {
+  width: 8%;
+  border-right: 2px solid rgb(80, 80, 80);
 }

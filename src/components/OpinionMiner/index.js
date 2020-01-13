@@ -16,9 +16,11 @@ const OpinionMiner = () => {
           <li>Resulting mark: 98%</li>
         </ul>
         <h2>Assignment Brief Summary</h2>
-        <strong>Task:</strong> Using supervised machine learning methods create models that predict the sentiment
-        (positive, negative, neutral) and topic of a tweet (out of a list of 20). From experimental observation and
-        adjusting learning parameters, create your own model to submit.
+        <p>
+          <strong>Task:</strong> Using supervised machine learning methods create models that predict the sentiment
+          (positive, negative, neutral) and topic of a tweet (out of a list of 20). From experimental observation and
+          adjusting learning parameters, create your own model to submit.
+        </p>
         <p>The supervised machine learning methods used were:</p>
         <ul>
           <li>Decision Trees</li>
@@ -52,42 +54,24 @@ const OpinionMiner = () => {
           Open report
         </a>
         <h2>Source Code</h2>
-        <h4>Helper functions</h4>
-        <div className="gist">
-          <Gist gistNb="ae08dde851a26a7fa3a237e82b65c319" />
-        </div>
-        <h4>Decision Tree Sentiment Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="8eaf4756330683a8319e0f1ab074808c" />
-        </div>
-        <h4>Decision Tree Topic Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="5241a15b8933954dbf22c23aea5cc28e" />
-        </div>
-        <h4>Bernoulli Naive Bayes Sentiment Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="d5912b2e40614530b260b4703dc03cc9" />
-        </div>
-        <h4>Bernoulli Naive Bayes Topic Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="18df242d7bb123ae0dbbf5ac940021cb" />
-        </div>
-        <h4>Multinomial Naive Bayes Sentiment Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="b9750da36cb70142d2fde5dbe7af9bd8" />
-        </div>
-        <h4>Multinomial Naive Bayes Topic Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="ce1da6ceae68c4caacb44970d34e9f73" />
-        </div>
-        <h4>Proposed Sentiment Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="c6b1cc83285bd917b8e92d95db5c4cae" />
-        </div>
-        <h4>Proposed Topic Analyser</h4>
-        <div className="gist">
-          <Gist gistNb="274935fbb7cd8e6d610049509ba8a6c8" />
-        </div>
+
+        <Gist fileName="Helper Functions" gistNb="ae08dde851a26a7fa3a237e82b65c319" />
+
+        <Gist fileName="Decision Tree Sentiment Analyser" gistNb="8eaf4756330683a8319e0f1ab074808c" />
+
+        <Gist fileName="Decision Tree Topic Analyser" gistNb="5241a15b8933954dbf22c23aea5cc28e" />
+
+        <Gist fileName="Bernoulli Naive Bayes Sentiment Analyser" gistNb="d5912b2e40614530b260b4703dc03cc9" />
+
+        <Gist fileName="Bernoulli Naive Bayes Topic Analyser" gistNb="18df242d7bb123ae0dbbf5ac940021cb" />
+
+        <Gist fileName="Multinomial Naive Bayes Sentiment Analyser" gistNb="b9750da36cb70142d2fde5dbe7af9bd8" />
+
+        <Gist fileName="Multinomial Naive Bayes Topic Analyser" gistNb="ce1da6ceae68c4caacb44970d34e9f73" />
+
+        <Gist fileName="Proposed Sentiment Analyser" gistNb="c6b1cc83285bd917b8e92d95db5c4cae" />
+
+        <Gist fileName="Proposed Topic Analyser" gistNb="274935fbb7cd8e6d610049509ba8a6c8" />
       </div>
     </main>
   );

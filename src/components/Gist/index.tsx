@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { ReactGithubGist } from 'react-github-gist';
+import './Gist.css';
 
 interface Props {
+  fileName: string;
   gistNb: string;
 }
 
@@ -14,8 +16,13 @@ const Gist: React.FC<Props> = (props: Props) => {
 
   if (isVisible) {
     return (
-      <div className="content-wrap">
-        <button onClick={() => toggleVisibility()}>{isVisible ? 'Hide' : 'Show'}</button>
+      <div>
+        <div className="gist-table">
+          <div className="gt-col1">{props.fileName}</div>
+          <button className="gt-col2" onClick={() => toggleVisibility()}>
+            {isVisible ? 'Collapse' : 'Show'}
+          </button>
+        </div>
         <div className="gist">
           <ReactGithubGist gist={props.gistNb} />
         </div>
@@ -23,8 +30,13 @@ const Gist: React.FC<Props> = (props: Props) => {
     );
   } else {
     return (
-      <div className="content-wrap">
-        <button onClick={() => toggleVisibility()}>{isVisible ? 'Hide' : 'Show'}</button>
+      <div>
+        <div className="gist-table">
+          <div className="gt-col1">{props.fileName}</div>
+          <button className="gt-col2" onClick={() => toggleVisibility()}>
+            {isVisible ? 'Collapse' : 'Show'}
+          </button>
+        </div>
       </div>
     );
   }

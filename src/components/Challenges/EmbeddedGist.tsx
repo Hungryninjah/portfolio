@@ -32,9 +32,8 @@ const EmbeddedGist: React.FC<Props> = (props: Props) => {
             {isRender ? 'Collapse' : 'Show'}
           </button>
         </div>
-        <div className="gist">
-          <ReactGithubGist gist={props.gist.slice(24)} />
-        </div>
+
+        <ReactGithubGist gist={props.gist.slice(24)} />
       </div>
     );
   } else {

@@ -49,9 +49,7 @@ const Scheduler = () => {
           AI Python by David Poole and Alan Mackworth.
         </a>
         <h2>Source Code</h2>
-        <div className="gist">
-          <Gist gistNb="b1a0c8be0f7e76a5b48f0b4f72cecdee" />
-        </div>
+        <Gist fileName="Scheduler" gistNb="b1a0c8be0f7e76a5b48f0b4f72cecdee" />
       </div>
     </main>
   );

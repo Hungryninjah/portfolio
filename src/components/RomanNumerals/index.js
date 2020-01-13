@@ -54,9 +54,7 @@ const RomanNumerals = () => {
           task 1 and 2, however it failed some instances of task 3.
         </p>
         <h2>Source Code</h2>
-        <div className="gist">
-          <Gist gistNb="2788d5c863c68e309a88a56b3c9c0771" />
-        </div>
+        <Gist fileName="Extended Roman Numerals" gistNb="2788d5c863c68e309a88a56b3c9c0771" />
       </div>
     </main>
   );

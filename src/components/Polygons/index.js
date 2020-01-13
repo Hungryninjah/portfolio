@@ -44,9 +44,7 @@ const Polygons = () => {
           </a>
         </p>
         <h2>Source Code</h2>
-        <div className="gist">
-          <Gist gistNb="7337534352b2c913ffaaf0d219e09a94" />
-        </div>
+        <Gist fileName="Polygons" gistNb="7337534352b2c913ffaaf0d219e09a94" />
       </div>
     </main>
   );
