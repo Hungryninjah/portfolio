@@ -3,7 +3,10 @@ import Gist from '../Gist';
 import PDF from './pdf/9021_Assignment_2.pdf';
 import analysisImg from './images/example_analysis.png';
 import inputImg from './images/example_input.png';
-import polygonsImg from './images/example_polygons.png';
+import polygon1Img from './images/output1.png';
+import polygon2Img from './images/output2.png';
+import polygon3Img from './images/output3.png';
+import polygon4Img from './images/output4.png';
 
 const Polygons = () => {
   // TODO add instructions on how to run code
@@ -28,15 +31,19 @@ const Polygons = () => {
         </p>
         <p>
           <strong>Task 2:</strong> Extend the program to output a .tex file, which can then be converted into a pdf that
-          displays all the polygons, and colours them according to their relative sizes, larger polygons being darker
-          coloured and smaller polygons being lighter coloured.
+          displays all the polygons, and colours them according to their relative sizes, larger polygons being lighter
+          coloured and smaller polygons being dareker coloured.
         </p>
         <p>Example input:</p>
         <img src={inputImg} alt="example-input"></img>
         <p>Example property calculation extract:</p>
         <img src={analysisImg} alt="example-analysis"></img>
         <p>Example pdf image output:</p>
-        <img src={polygonsImg} alt="example-polygons"></img>
+        <img src={polygon4Img} alt="example-polygons" width="50%"></img>
+        <p>Additional outputs unrelated to example input above</p>
+        <img src={polygon3Img} alt="example-polygons" width="50%"></img>
+        <img src={polygon1Img} alt="example-polygons"></img>
+        <img src={polygon2Img} alt="example-polygons"></img>
         <p>
           {' '}
           <a href={PDF} className="external-link" target="_blank" rel="noopener noreferrer">

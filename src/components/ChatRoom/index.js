@@ -1,6 +1,7 @@
 import React from 'react';
 import Gist from '../Gist';
 import BriefPdf from './9331_Assignment.pdf';
+import ReportPdf from './report.pdf';
 import example1Img from './images/example1.png';
 import example2Img from './images/example2.png';
 import example3Img from './images/example3.png';
@@ -28,7 +29,7 @@ const ChatRoom = () => {
           <li>login/logout</li>
           <li>listing who is online</li>
           <li>messaging to online users</li>
-          <li>messaging to offline users, who will receive the message when they log in</li>
+          <li>messaging to offline users, who will receive Zthe message when they log in</li>
           <li>blocking (and effects of blocking on other commands)</li>
           <li>peer to peer messaging</li>
           <li>(the rest of the functionality can be read in the full assignment specification)</li>
@@ -44,6 +45,12 @@ const ChatRoom = () => {
         </p>
         <h2>Personal Remarks</h2>
         <p>I did not attempt the extension. I ranked first in this entire course.</p>
+        <p>Here is an explanation of my coding design below. This report was also marked.</p>
+        <p>
+          <a href={ReportPdf} className="external-link" target="_blank" rel="noopener noreferrer">
+            Open program design report
+          </a>
+        </p>
         <h2>Source Code</h2>
         <Gist fileName="client.py" gistNb="5695a3701589b7bf8163c19be349a730" />
         <Gist fileName="server.py" gistNb="4809b34922470c8dea9585340a2ae824" />
