@@ -18,9 +18,10 @@ const TripPlanner = () => {
         </ul>
         <h2>Assignment Brief Summary</h2>
         <p>
-          <strong>Task:</strong> Create a command line C program that takes in an exisiting train schedule, and plans
-          the optimal route when given a start station and time, and an end station and time. The program must depart as
-          late as possible and arrive as early as possible if choosing between two routes that have similar start times.
+          <strong>Task:</strong> Create a command line C program that takes in existing train schedules and plans the
+          optimal route when given a start station and time, and an end station and time. The program must suggest a
+          solution that departs as late as possible and arrives as early as possible if choosing between two routes that
+          have similar start times.
         </p>
         <p>Example Input:</p>
         <img src={inputImg} alt="example-input"></img>
@@ -36,6 +37,7 @@ const TripPlanner = () => {
           The program relies on existing data structures. The data structures used were based on programs in the course.
           Small changes were made to the data structures to suit the program.
         </p>
+        <h2>Source Code</h2>
         <h4>Main Program File</h4>
         <Gist fileName="myTrain.c" gistNb="47456506c9c95128a017424e33a2a113" />
         <h4>Supporting Program Files</h4>

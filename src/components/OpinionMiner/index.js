@@ -33,7 +33,7 @@ const OpinionMiner = () => {
         <h2>Personal Remarks</h2>
         <p>
           This markers tested to see if we used the supervised machine learning methods correctly by comparing our
-          models predictions to the Course Coordinators&rsquo;s. This was also a test to display our understanding of
+          models predictions to the Course Coordinator&rsquo;s. There was also a test to display our understanding of
           the learning methods and the justification behind our original model through report writing.
         </p>
         <p>
@@ -54,23 +54,14 @@ const OpinionMiner = () => {
           Open report
         </a>
         <h2>Source Code</h2>
-
         <Gist fileName="Helper Functions" gistNb="ae08dde851a26a7fa3a237e82b65c319" />
-
         <Gist fileName="Decision Tree Sentiment Analyser" gistNb="8eaf4756330683a8319e0f1ab074808c" />
-
         <Gist fileName="Decision Tree Topic Analyser" gistNb="5241a15b8933954dbf22c23aea5cc28e" />
-
         <Gist fileName="Bernoulli Naive Bayes Sentiment Analyser" gistNb="d5912b2e40614530b260b4703dc03cc9" />
-
         <Gist fileName="Bernoulli Naive Bayes Topic Analyser" gistNb="18df242d7bb123ae0dbbf5ac940021cb" />
-
         <Gist fileName="Multinomial Naive Bayes Sentiment Analyser" gistNb="b9750da36cb70142d2fde5dbe7af9bd8" />
-
         <Gist fileName="Multinomial Naive Bayes Topic Analyser" gistNb="ce1da6ceae68c4caacb44970d34e9f73" />
-
         <Gist fileName="Proposed Sentiment Analyser" gistNb="c6b1cc83285bd917b8e92d95db5c4cae" />
-
         <Gist fileName="Proposed Topic Analyser" gistNb="274935fbb7cd8e6d610049509ba8a6c8" />
       </div>
     </main>
