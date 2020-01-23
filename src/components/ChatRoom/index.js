@@ -35,9 +35,9 @@ const ChatRoom = () => {
           <li>(the rest of the functionality can be read in the full assignment specification)</li>
         </ul>
         <p>Example: (taken from the assignment specification)</p>
-        <img src={example1Img} alt="example-1"></img>
-        <img src={example2Img} alt="example-2"></img>
-        <img src={example3Img} alt="example-3"></img>
+        <img src={example1Img} alt="example-1" className="block-image"></img>
+        <img src={example2Img} alt="example-2" className="block-image"></img>
+        <img src={example3Img} alt="example-3" className="block-image"></img>
         <p>
           <a href={BriefPdf} className="external-link" target="_blank" rel="noopener noreferrer">
             Open full assignment brief
