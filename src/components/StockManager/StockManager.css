@@ -1,0 +1,21 @@
+.stock-element {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.column1 {
+  background-color: #202b73;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  width: 50%;
+
+  float: left;
+}
+.column2 {
+  background-color: #4d2073;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  width: 50%;
+  float: left;
+}

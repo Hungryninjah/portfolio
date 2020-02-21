@@ -4,6 +4,16 @@ const WebappIcons = () => {
   return (
     <div>
       <h3>WebApps Page</h3>
+      <h4>Stock Manager Icon</h4>
+      Icons made by{' '}
+      <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">
+        ultimatearm
+      </a>{' '}
+      from{' '}
+      <a href="https://www.flaticon.com/" title="Flaticon">
+        {' '}
+        www.flaticon.com
+      </a>
       <h4>Meme Generator Icon</h4>
       <div>
         Icons made by{' '}

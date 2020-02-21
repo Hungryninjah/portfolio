@@ -3,8 +3,8 @@ import HomeCard from './HomeCard';
 import portfolioImg from './images/portfolio.png';
 import cvImg from './images/cv.png';
 import aboutImg from './images/about.png';
-import './Home.css';
 import quotes from './quotes.json';
+import './Home.css';
 
 interface Props {
   homeHeader(): void;

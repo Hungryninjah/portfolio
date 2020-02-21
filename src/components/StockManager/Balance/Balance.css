@@ -1,0 +1,8 @@
+.balance-summary {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+}

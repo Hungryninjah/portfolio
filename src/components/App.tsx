@@ -21,6 +21,9 @@ import AnalogueClock from './AnalogueClock';
 import Header from './Header';
 import Footer from './Footer';
 import Imprint from './Imprint';
+import StockManager from './StockManager';
+import Executables from './Executables';
+import FlareDetector from './FlareDetector';
 
 const App: React.FC = () => {
   const [atHome, setAtHome] = useState();
@@ -45,10 +48,14 @@ const App: React.FC = () => {
         <Route exact path="/" render={() => <Home awayHeader={awayHeader} homeHeader={homeHeader} />} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/portfolio/website-information" component={WebsiteInformation} />
+        <Route exact path="/portfolio/stock-manager" component={StockManager} />
+        <Route exact path="/portfolio/executables" component={Executables} />
+        <Route exact path="/portfolio/executables/flare-detector" component={FlareDetector} />
         <Route exact path="/portfolio/web-apps" component={WebApps} />
         <Route exact path="/portfolio/web-apps/todo-list" component={TodoList} />
         <Route exact path="/portfolio/web-apps/meme-generator" component={MemeGenerator} />
         <Route exact path="/portfolio/web-apps/analogue-clock" component={AnalogueClock} />
+        <Route exact path="/portfolio/web-apps/stock-manager" component={StockManager} />
         <Route exact path="/portfolio/uni-projects" component={UniProjects} />
         <Route exact path="/portfolio/uni-projects/chat-room" component={ChatRoom} />
         <Route exact path="/portfolio/uni-projects/opinion-miner" component={OpinionMiner} />

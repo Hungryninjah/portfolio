@@ -1,0 +1,42 @@
+[
+  {
+    "key": 0,
+    "code": "AAPL"
+  },
+  {
+    "key": 1,
+    "code": "AMZN"
+  },
+  {
+    "key": 2,
+    "code": "BAC"
+  },
+  {
+    "key": 3,
+    "code": "BP"
+  },
+  {
+    "key": 4,
+    "code": "FB"
+  },
+  {
+    "key": 5,
+    "code": "GM"
+  },
+  {
+    "key": 6,
+    "code": "JPM"
+  },
+  {
+    "key": 7,
+    "code": "MSFT"
+  },
+  {
+    "key": 8,
+    "code": "TWTR"
+  },
+  {
+    "key": 9,
+    "code": "WMT"
+  }
+]

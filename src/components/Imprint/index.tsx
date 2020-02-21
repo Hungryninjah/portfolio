@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeIcons from './HomeIcons';
 import PortfolioIcons from './PortfolioIcons';
-import OriginalWorksIcons from './OriginalWorksIcons';
+import ExecutablesIcons from './ExecutablesIcons';
 import WebappIcons from './WebappIcons';
 import UniAssIcons from './UniProjectsIcons';
 
@@ -11,8 +11,9 @@ const Imprint = () => {
       <h1>Imprint</h1>
       <div className="content-wrap">
         <h2>Graphical Icon Acknowledgements</h2>
+        <HomeIcons />
         <PortfolioIcons />
-        <OriginalWorksIcons />
+        <ExecutablesIcons />
         <WebappIcons />
         <UniAssIcons />
       </div>
