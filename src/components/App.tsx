@@ -26,7 +26,7 @@ import Executables from './Executables';
 import FlareDetector from './FlareDetector';
 
 const App: React.FC = () => {
-  const [atHome, setAtHome] = useState();
+  const [atHome, setAtHome] = useState<boolean>(true);
   const homeHeader = () => {
     setAtHome(true);
   };

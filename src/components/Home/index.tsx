@@ -12,9 +12,9 @@ interface Props {
 }
 
 const Home: React.FC<Props> = (props: Props) => {
-  const [quote, setQuote] = useState();
-  const [author, setAuthor] = useState();
-  const [count, setCount] = useState(0);
+  const [quote, setQuote] = useState<string>();
+  const [author, setAuthor] = useState<string>();
+  const [count, setCount] = useState<number>(0);
 
   useEffect(() => {
     props.homeHeader();
