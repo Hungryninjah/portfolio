@@ -20,8 +20,7 @@ const FlareDetector = () => {
           Robotics are used to inspect infrastructure in places that are hard for people to reach. In this problem, a
           manually controlled robotic drone takes pictures of marine walls for later inspection of defects. Lens flaring
           on cameras inhibits visibility of defects and so it would be beneficial to automate the notification and
-          removal of such images. Produce a program that can tag whether or not an image is experienceing lens
-          flaring.
+          removal of such images. Produce a program that can tag whether or not an image is experienceing lens flaring.
         </p>
         <h2>Proposed Solution</h2>
         <strong>
