@@ -24,6 +24,7 @@ import Imprint from './Imprint';
 import StockManager from './StockManager';
 import Executables from './Executables';
 import FlareDetector from './FlareDetector';
+import LatestNews from './LatestNews';
 
 const App: React.FC = () => {
   const [atHome, setAtHome] = useState<boolean>(true);
@@ -63,6 +64,7 @@ const App: React.FC = () => {
         <Route exact path="/portfolio/uni-projects/roman-numerals" component={RomanNumerals} />
         <Route exact path="/portfolio/uni-projects/scheduler" component={Scheduler} />
         <Route exact path="/portfolio/uni-projects/trip-planner" component={TripPlanner} />
+        <Route exact path="/portfolio/uni-projects/latest-news-classifier" component={LatestNews} />
         <Route exact path="/portfolio/coding-challenges" component={Challenges} />
         <Route exact path="/cv" component={CV} />
         <Route exact path="/about" component={About} />

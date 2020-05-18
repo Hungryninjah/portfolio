@@ -1,6 +1,6 @@
 import React from 'react';
-import BriefPdf from './9024_Assignment.pdf';
 import Gist from '../Gist';
+import BriefPdf from './9024_Assignment.pdf';
 import inputImg from './images/input.png';
 import outputImg from './images/output.png';
 
@@ -13,7 +13,7 @@ const TripPlanner = () => {
         <ul>
           <li>Course: COMP9024 - Data Structures and Algorithms</li>
           <li>Date submitted: 19/11/2019</li>
-          <li>Language: C11</li>
+          <li>Language: C</li>
           <li>Resulting mark: 98%</li>
         </ul>
         <h2>Assignment Brief Summary</h2>

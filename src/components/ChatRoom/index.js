@@ -29,7 +29,7 @@ const ChatRoom = () => {
           <li>login/logout</li>
           <li>listing who is online</li>
           <li>messaging to online users</li>
-          <li>messaging to offline users, who will receive Zthe message when they log in</li>
+          <li>messaging to offline users, who will receive the message when they log in</li>
           <li>blocking (and effects of blocking on other commands)</li>
           <li>peer to peer messaging</li>
           <li>(the rest of the functionality can be read in the full assignment specification)</li>

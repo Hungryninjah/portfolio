@@ -6,12 +6,14 @@ import opinionMinerImg from './images/opinion-mining.png';
 import patternFinderImg from './images/pattern-finder.png';
 import schedulerImg from './images/scheduling.png';
 import tripPlannerImg from './images/trip-planner.png';
+import articleImg from './images/article.png';
 
 const UniProjects = () => {
   return (
     <main className="uniprojects-page">
       <div className="small-card-wrap">
         <h1>University Projects</h1>
+        <CardSmall imgSrc={articleImg} path="/portfolio/uni-projects/latest-news-classifier" title="Latest News" />
         <CardSmall imgSrc={chatRoomImg} path="/portfolio/uni-projects/chat-room" title="Chat Room" />
         <CardSmall imgSrc={tripPlannerImg} path="/portfolio/uni-projects/trip-planner" title="Trip Planner" />
         <CardSmall imgSrc={opinionMinerImg} path="/portfolio/uni-projects/opinion-miner" title="Opinion Miner" />

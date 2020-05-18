@@ -14,32 +14,43 @@ const About: React.FC = () => (
       <p>
         I created this website using Facebook‘s React library. It started off with me just wanting to put my work on
         display; it unexpectedly became an immersive course on web-development using React. To learn more about this
-        website, you can access the project page here:
+        website, you can access the project page{' '}
+        <Link to="/portfolio/website-information" className="external-link" target="_blank" rel="noopener noreferrer">
+          here.
+        </Link>
       </p>
-
-      <Link to="/portfolio/website-information" className="external-link" target="_blank" rel="noopener noreferrer">
-        Link to website’s project page
-      </Link>
-
       <h2>My Coding Environment</h2>
-      <h4>IDEs and Text Editors</h4>
-      <ul>
-        <li>For web development I use Visual Studio Code</li>
-        <li>For coding C/C++ and Python I use Neovim.</li>
-        <li>For coding Java I use Intellij</li>
-      </ul>
+      <h4>Text Editor</h4>
+      <p>
+        I do all my programming on Neovim. I have my config file set up for web development, C/C++, Python, R, and
+        Latex. You can see my configuration files{' '}
+        <a
+          href={'https://github.com/judemlim/config-files/tree/master/nvim'}
+          className="external-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here.
+        </a>
+      </p>
       <h4>OS</h4>
       <p>
-        I use the Debian 10 linux distribution. I chose Linux because I wanted to learn more about operating systems;
-        Linux encourages me to delve into OS lower levels. I chose Debian because I read that it was one of the more
-        reliable Linux distributions reccomended for advanced users. Having no experience with Linux, I figured this
-        would be a challenging and rewarding learning experience.
+        I currently use the Arch Linux distribution with the popular i3 window tiling manager. All my configuration
+        files and scripts are located{' '}
+        <a
+          href={'https://github.com/judemlim/config-files'}
+          className="external-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here.
+        </a>
       </p>
-      <p>A goal of mine is to be able to customise and debug the kernal.</p>
+      <p>A goal of mine is to be able to customise and debug the kernel.</p>
       <h4>Hardware</h4>
       <p>
         I do all my work on my humble Acer Aspire S5-371T. Its extremely loud fan that roared whenever I was using
-        Windows 10, was what inspired me to use lightweight alternatives like Debian.
+        Windows 10 is what inspired me to use lightweight Linux distributions.
       </p>
     </div>
   </main>
