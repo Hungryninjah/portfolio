@@ -3,7 +3,9 @@ import React from 'react';
 const Executables = () => {
   return (
     <div>
-      <h3>Executables</h3>
+      <h3>
+        <u>Executables</u>
+      </h3>
       <h4>Flare Detection Icon</h4>
       <div>
         Icons made by{' '}

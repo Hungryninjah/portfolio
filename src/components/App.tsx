@@ -5,7 +5,6 @@ import CV from './CV';
 import About from './About';
 import Error from './Error';
 import Portfolio from './Portfolio';
-import WebsiteInformation from './WebsiteInformation';
 import UniProjects from './UniProjects';
 import ChatRoom from './ChatRoom';
 import OpinionMiner from './OpinionMiner';
@@ -48,7 +47,6 @@ const App: React.FC = () => {
       <Switch>
         <Route exact path="/" render={() => <Home awayHeader={awayHeader} homeHeader={homeHeader} />} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/portfolio/website-information" component={WebsiteInformation} />
         <Route exact path="/portfolio/stock-manager" component={StockManager} />
         <Route exact path="/portfolio/executables" component={Executables} />
         <Route exact path="/portfolio/executables/flare-detector" component={FlareDetector} />

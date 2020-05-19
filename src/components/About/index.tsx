@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Log from '../Log';
+import websiteLog from './website_log.json';
 
 const About: React.FC = () => (
   <main className="About">
@@ -9,15 +10,6 @@ const About: React.FC = () => (
       <p>
         Welcome to my website! Here I showcase the various programming works I’ve completed to improve my programming
         skill-set.
-      </p>
-      <h2>This Website</h2>
-      <p>
-        I created this website using Facebook‘s React library. It started off with me just wanting to put my work on
-        display; it unexpectedly became an immersive course on web-development using React. To learn more about this
-        website, you can access the project page{' '}
-        <Link to="/portfolio/website-information" className="external-link" target="_blank" rel="noopener noreferrer">
-          here.
-        </Link>
       </p>
       <h2>My Coding Environment</h2>
       <h4>Text Editor</h4>
@@ -52,6 +44,30 @@ const About: React.FC = () => (
         I do all my work on my humble Acer Aspire S5-371T. Its extremely loud fan that roared whenever I was using
         Windows 10 is what inspired me to use lightweight Linux distributions.
       </p>
+      <h2>This Website</h2>
+      <p>
+        This website was created using Facebook’s <strong>React</strong> library. It is written primarily in{' '}
+        <strong>TypeScript</strong>.
+      </p>
+      <p>
+        All the programming language features I display on this website, <strong>HTML</strong>, <strong>CSS</strong>,{' '}
+        <strong>JavaScript</strong>, <strong>TypeScript</strong>, were all learnt from watching youtube tutorials,
+        online courses on Lynda, and through reading documentation from official sources.
+      </p>
+      <p>
+        This website is hosted using <strong>github pages</strong>. The repository for this website can be accessed
+        here:
+      </p>
+      <a
+        href="https://github.com/judemlim/judemlim.github.io.git"
+        className="external-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Link to website’s github repo
+      </a>
+      <h3>Website Log</h3>
+      <Log entries={websiteLog} />
     </div>
   </main>
 );

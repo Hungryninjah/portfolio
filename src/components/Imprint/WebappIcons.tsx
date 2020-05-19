@@ -3,7 +3,9 @@ import React from 'react';
 const WebappIcons = () => {
   return (
     <div>
-      <h3>WebApps Page</h3>
+      <h3>
+        <u>WebApps Page</u>
+      </h3>
       <h4>Stock Manager Icon</h4>
       Icons made by{' '}
       <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">

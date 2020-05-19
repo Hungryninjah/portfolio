@@ -3,7 +3,9 @@ import React from 'react';
 const HomeIcons = () => {
   return (
     <div>
-      <h3>Home Page</h3>
+      <h3>
+        <u>Home Page</u>
+      </h3>
       <h4>Portfolio icon</h4>
       <div>
         Icons made by{' '}

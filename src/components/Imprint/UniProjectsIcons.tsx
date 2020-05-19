@@ -3,7 +3,9 @@ import React from 'react';
 const UniAssIcons = () => {
   return (
     <div>
-      <h3>UniProjects Page</h3>
+      <h3>
+        <u>UniProjects Page</u>
+      </h3>
       <h4>Roman Numerals Icon</h4>
       <div>
         <div>
