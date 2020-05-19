@@ -1,6 +1,14 @@
 [
   {
+    "key":1,
+    "event":"Modification",
+    "page":"Home",
+    "description":"Made random quote generator stationary more often than not. Allow user to click text to move on to next quote",
+    "date":"19-05-2020"
+  },
+  {
     "key":0,
+    "page":"About",
     "event":"New Feature",
     "description":"Added log components to record changes on pages",
     "date":"19-05-2020"

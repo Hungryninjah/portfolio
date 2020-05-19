@@ -6,7 +6,7 @@
 }
 
 .challenges-content-wrap {
-  width: 75vw;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

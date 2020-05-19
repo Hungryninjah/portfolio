@@ -50,7 +50,7 @@ h2 {
 /*Global Layouts */
 
 .content-wrap {
-  max-width: 60vw;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

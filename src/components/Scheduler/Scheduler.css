@@ -1,0 +1,12 @@
+.scheduler-table {
+  overflow: auto;
+}
+.scheduler-table-col1{
+  width:50%;
+  float:left;
+  clear:both;
+}
+.scheduler-table-col2{
+  width:50%;
+  float:left;
+}

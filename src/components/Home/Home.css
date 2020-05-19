@@ -48,11 +48,15 @@ h1 {
   font-size: 50px;
 }
 
-.rqg-wrap {
-  width: 700px;
+.rqg-btn {
+  width: 1000px;
+  min-height: 100px;
   margin: 0% auto;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  border:none;
+  background:none;
+  outline:none;
 }
 
 .rqg-quote {
@@ -67,7 +71,7 @@ h1 {
   font-size: 20px;
 }
 .rqg-info {
-  float: right;
+  float:right;
   margin-top: 0px;
   background-color: rgb(75, 7, 7);
   border: solid grey 1px;

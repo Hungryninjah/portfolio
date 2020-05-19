@@ -45,7 +45,10 @@ const FlareDetector = () => {
         <a href={reportPdf} className="external-link" target="_blank" rel="noopener noreferrer">
           Detailed explanation of implementation here
         </a>
-        <p>Examples of these implementations visually are shown below with a relevant image with the feature </p>
+        <p>
+          Examples of these implementations with the original images and their post-processed appearance for analysis
+          are shown below
+        </p>
         <h3>Case 1 - Light percentage</h3>
         <img src={percentageOrgImg} alt="flare-proportion" className="example-image"></img>
         <img src={percentageBinImg} alt="flare-proportion-bin" className="example-image"></img>
