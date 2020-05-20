@@ -23,10 +23,16 @@ const TripPlanner = () => {
           solution that departs as late as possible and arrives as early as possible if choosing between two routes that
           have similar start times.
         </p>
-        <p>Example Input:</p>
-        <img src={inputImg} alt="example-input"></img>
-        <p>Example Output:</p>
-        <img src={outputImg} alt="example-output"></img>
+        <div className="table">
+          <div className="table-2col">
+            <p>Example Input:</p>
+            <img src={inputImg} alt="example-input"></img>
+          </div>
+          <div className="table-2col">
+            <p>Example Output:</p>
+            <img src={outputImg} alt="example-output"></img>
+          </div>
+        </div>
         <p>
           <a href={BriefPdf} className="external-link" target="_blank" rel="noopener noreferrer">
             Open full assignment brief

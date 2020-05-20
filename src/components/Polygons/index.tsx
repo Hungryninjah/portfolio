@@ -34,12 +34,20 @@ const Polygons = () => {
           displays all the polygons, and colours them according to their relative sizes, larger polygons being lighter
           coloured and smaller polygons being dareker coloured.
         </p>
-        <p>Example input:</p>
-        <img src={inputImg} alt="example-input"></img>
-        <p>Example property calculation extract:</p>
-        <img src={analysisImg} alt="example-analysis"></img>
-        <p>Example pdf image output:</p>
-        <img src={polygon4Img} alt="example-polygons" width="50%"></img>
+        <div className="table center">
+          <div className="table-3col">
+            <p>Example input:</p>
+            <img src={inputImg} alt="example-input" width="100%"></img>
+          </div>
+          <div className="table-3col">
+            <p>Example property calculation extract:</p>
+            <img src={analysisImg} alt="example-analysis"></img>
+          </div>
+          <div className="table-3col">
+            <p>Example image output:</p>
+            <img src={polygon4Img} alt="example-polygons" width="80%"></img>
+          </div>
+        </div>
         <p>Additional outputs unrelated to example input above</p>
         <img src={polygon3Img} alt="example-polygons" width="50%"></img>
         <img src={polygon1Img} alt="example-polygons"></img>

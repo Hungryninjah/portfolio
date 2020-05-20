@@ -69,6 +69,18 @@ h2 {
   text-align: center;
 }
 
+.table {
+  overflow: auto;
+}
+.table-2col{
+  width:50%;
+  float:left;
+}
+.table-3col{
+  max-width:33%;
+  float:left;
+}
+
 /*Links*/
 a {
   margin: 0;

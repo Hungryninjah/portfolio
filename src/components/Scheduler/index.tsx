@@ -3,7 +3,6 @@ import Gist from '../Gist';
 import Pdf from './9414_Assignment_1.pdf';
 import inputImg from './images/example_input_file.png';
 import outputImg from './images/example_output_file.png';
-import './Scheduler.css';
 
 const Scheduler = () => {
   return (
@@ -31,12 +30,12 @@ const Scheduler = () => {
             <li>etc.</li>
           </ul>
         </p>
-        <div className="scheduler-table">
-          <div className="scheduler-table-col1">
+        <div className="table">
+          <div className="table-2col">
             <p>Example input:</p>
             <img src={inputImg} alt="input-example"></img>
           </div>
-          <div className="scheduler-table-col2">
+          <div className="table-2col">
             <p>Example output:</p>
             <img src={outputImg} alt="output-example"></img>
           </div>
